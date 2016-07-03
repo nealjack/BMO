@@ -509,6 +509,75 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <rectangle x1="-3.4201" y1="2" x2="-2.9299" y2="3.1001" layer="51"/>
 <rectangle x1="-4.6901" y1="2" x2="-4.1999" y2="3.1001" layer="51"/>
 </package>
+<package name="USB-A-TESTPOINT">
+<smd name="VCC" x="0" y="0" dx="1.5" dy="3" layer="1"/>
+<smd name="D-" x="2" y="0" dx="1.5" dy="3" layer="1"/>
+<smd name="D+" x="4" y="0" dx="1.5" dy="3" layer="1"/>
+<smd name="GND" x="6" y="0" dx="1.5" dy="3" layer="1"/>
+<text x="0" y="2" size="0.7" layer="25" font="vector" ratio="10" align="bottom-center">VCC</text>
+<text x="2" y="2" size="0.7" layer="25" font="vector" ratio="10" align="bottom-center">D-</text>
+<text x="4" y="2" size="0.7" layer="25" font="vector" ratio="10" align="bottom-center">D+</text>
+<text x="6" y="2" size="0.7" layer="25" font="vector" ratio="10" align="bottom-center">GND</text>
+</package>
+<package name="TSSOP8">
+<description>&lt;b&gt;Plastic Small Outline&lt;/b&gt;</description>
+<wire x1="-2.15" y1="-1.4" x2="2.15" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="-1.4" x2="2.15" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="2.15" y1="1.4" x2="-2.15" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-2.15" y1="1.4" x2="-2.15" y2="-1.4" width="0.2032" layer="21"/>
+<circle x="-1.625" y="0.65" radius="0.325" width="0" layer="21"/>
+<smd name="1" x="-2.925" y="0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="2" x="-2.925" y="0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="3" x="-2.925" y="-0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="4" x="-2.925" y="-0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="5" x="2.925" y="-0.975" dx="1.2" dy="0.35" layer="1"/>
+<smd name="6" x="2.925" y="-0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="7" x="2.925" y="0.325" dx="1.2" dy="0.35" layer="1"/>
+<smd name="8" x="2.925" y="0.975" dx="1.2" dy="0.35" layer="1"/>
+<text x="-2.925" y="1.625" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.25" y="-2.925" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2" y1="0.85" x2="-2.2" y2="1.1" layer="51"/>
+<rectangle x1="-3.2" y1="0.2" x2="-2.2" y2="0.45" layer="51"/>
+<rectangle x1="-3.2" y1="-0.45" x2="-2.2" y2="-0.2" layer="51"/>
+<rectangle x1="-3.2" y1="-1.1" x2="-2.2" y2="-0.85" layer="51"/>
+<rectangle x1="2.2" y1="-1.1" x2="3.2" y2="-0.85" layer="51"/>
+<rectangle x1="2.2" y1="-0.45" x2="3.2" y2="-0.2" layer="51"/>
+<rectangle x1="2.2" y1="0.2" x2="3.2" y2="0.45" layer="51"/>
+<rectangle x1="2.2" y1="0.85" x2="3.2" y2="1.1" layer="51"/>
+</package>
+<package name="ABMM-6.000MHZ-B2-T">
+<smd name="1" x="-3.1496" y="-1.27" dx="2.2098" dy="1.397" layer="1"/>
+<smd name="2" x="-3.1496" y="1.27" dx="2.2098" dy="1.397" layer="1"/>
+<smd name="3" x="3.1496" y="1.27" dx="2.2098" dy="1.397" layer="1"/>
+<smd name="4" x="3.10515" y="-1.27" dx="2.3876" dy="1.397" layer="1"/>
+<wire x1="-3.5941" y1="2.6035" x2="3.5941" y2="2.6035" width="0.127" layer="21"/>
+<wire x1="-3.5941" y1="2.6035" x2="-3.5941" y2="-2.6035" width="0.127" layer="21"/>
+<wire x1="-3.5941" y1="-2.6035" x2="3.5941" y2="-2.6035" width="0.127" layer="21"/>
+<wire x1="3.5941" y1="2.6035" x2="3.5941" y2="-2.6035" width="0.127" layer="21"/>
+<text x="-3.556" y="3.048" size="1.27" layer="21" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="-3.81" y1="-0.254" x2="-4.572" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-4.572" y1="-0.254" x2="-4.572" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="-4.572" y1="-2.286" x2="-3.81" y2="-2.286" width="0.127" layer="21"/>
+</package>
+<package name="FA-128">
+<description>FA-128 Crystal footprint</description>
+<smd name="4" x="-0.725" y="0.575" dx="0.95" dy="0.85" layer="1"/>
+<smd name="3" x="0.725" y="0.575" dx="0.95" dy="0.85" layer="1"/>
+<smd name="1" x="-0.725" y="-0.575" dx="0.95" dy="0.85" layer="1"/>
+<smd name="2" x="0.725" y="-0.575" dx="0.95" dy="0.85" layer="1"/>
+<wire x1="-1" y1="0.8" x2="-1" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.8" x2="0" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.8" x2="1" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.8" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="1" y1="0" x2="1" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1" y1="0.8" x2="-1" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.2" x2="1.4" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-1.2" x2="1.4" y2="0" width="0.127" layer="21"/>
+<text x="0" y="1.1" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.3" size="1.016" layer="27" font="vector" ratio="12" align="bottom-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PUSH-BUTTON-SWITCH">
@@ -601,13 +670,13 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pin name="GND@2" x="-27.94" y="-27.94" length="middle" direction="pwr"/>
 <pin name="GND@1" x="-27.94" y="-25.4" length="middle" direction="pwr"/>
 <pin name="DP0" x="-27.94" y="2.54" length="middle"/>
-<pin name="DP1" x="27.94" y="27.94" length="middle" rot="R180"/>
-<pin name="DP2" x="27.94" y="20.32" length="middle" rot="R180"/>
-<pin name="DP3" x="27.94" y="12.7" length="middle" rot="R180"/>
+<pin name="DP1" x="27.94" y="25.4" length="middle" rot="R180"/>
+<pin name="DP2" x="27.94" y="17.78" length="middle" rot="R180"/>
+<pin name="DP3" x="27.94" y="10.16" length="middle" rot="R180"/>
 <pin name="DM0" x="-27.94" y="0" length="middle"/>
-<pin name="DM1" x="27.94" y="25.4" length="middle" rot="R180"/>
-<pin name="DM2" x="27.94" y="17.78" length="middle" rot="R180"/>
-<pin name="DM3" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="DM1" x="27.94" y="27.94" length="middle" rot="R180"/>
+<pin name="DM2" x="27.94" y="20.32" length="middle" rot="R180"/>
+<pin name="DM3" x="27.94" y="12.7" length="middle" rot="R180"/>
 <pin name="!PWRON1" x="27.94" y="5.08" length="middle" direction="out" rot="R180"/>
 <pin name="!PWRON2" x="27.94" y="2.54" length="middle" direction="out" rot="R180"/>
 <pin name="!PWRON3" x="27.94" y="0" length="middle" direction="out" rot="R180"/>
@@ -617,28 +686,55 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pin name="DP0PUR" x="-27.94" y="7.62" length="middle" direction="out"/>
 </symbol>
 <symbol name="TPS2043B">
-<wire x1="0" y1="0" x2="0" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="22.86" y2="22.86" width="0.254" layer="94"/>
-<wire x1="22.86" y1="22.86" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="0" y1="35.56" x2="22.86" y2="35.56" width="0.254" layer="94"/>
+<wire x1="22.86" y1="35.56" x2="22.86" y2="0" width="0.254" layer="94"/>
 <wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="GND0" x="-2.54" y="20.32" length="middle"/>
-<pin name="IN1" x="-2.54" y="17.78" length="middle"/>
-<pin name="!EN1" x="-2.54" y="15.24" length="middle"/>
-<pin name="!EN2" x="-2.54" y="12.7" length="middle"/>
-<pin name="GND1" x="-2.54" y="10.16" length="middle"/>
-<pin name="IN2" x="-2.54" y="7.62" length="middle"/>
-<pin name="!EN3" x="-2.54" y="5.08" length="middle"/>
-<pin name="NC0" x="-2.54" y="2.54" length="middle"/>
-<pin name="!OC1" x="25.4" y="20.32" length="middle" rot="R180"/>
-<pin name="OUT1" x="25.4" y="17.78" length="middle" rot="R180"/>
-<pin name="OUT2" x="25.4" y="15.24" length="middle" rot="R180"/>
-<pin name="!OC2" x="25.4" y="12.7" length="middle" rot="R180"/>
-<pin name="!OC3" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="OUT3" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="NC1" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="NC2" x="25.4" y="2.54" length="middle" rot="R180"/>
-<text x="0" y="25.4" size="2.54" layer="94">&gt;NAME</text>
-<text x="0" y="-5.08" size="2.54" layer="94">&gt;VALUE</text>
+<pin name="GND0" x="-5.08" y="5.08" length="middle"/>
+<pin name="IN1" x="-5.08" y="33.02" length="middle"/>
+<pin name="!EN1" x="-5.08" y="25.4" length="middle"/>
+<pin name="!EN2" x="-5.08" y="22.86" length="middle"/>
+<pin name="GND1" x="-5.08" y="2.54" length="middle"/>
+<pin name="IN2" x="-5.08" y="30.48" length="middle"/>
+<pin name="!EN3" x="-5.08" y="20.32" length="middle"/>
+<pin name="NC0" x="27.94" y="5.08" length="middle" rot="R180"/>
+<pin name="!OC1" x="-5.08" y="15.24" length="middle"/>
+<pin name="OUT1" x="27.94" y="27.94" length="middle" rot="R180"/>
+<pin name="OUT2" x="27.94" y="25.4" length="middle" rot="R180"/>
+<pin name="!OC2" x="-5.08" y="12.7" length="middle"/>
+<pin name="!OC3" x="-5.08" y="10.16" length="middle"/>
+<pin name="OUT3" x="27.94" y="22.86" length="middle" rot="R180"/>
+<pin name="NC1" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="NC2" x="27.94" y="7.62" length="middle" rot="R180"/>
+<text x="0" y="36.322" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SN75240">
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="A" x="-5.08" y="7.62" length="middle"/>
+<pin name="C" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="GND" x="-5.08" y="2.54" length="middle"/>
+<pin name="B" x="-5.08" y="5.08" length="middle"/>
+<pin name="D" x="15.24" y="5.08" length="middle" rot="R180"/>
+<text x="0" y="10.668" size="1.778" layer="95" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="95" font="vector" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="CRYSTAL-GND">
+<pin name="1" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<text x="-2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<text x="0" y="-2.54" size="0.762" layer="95" ratio="12" align="bottom-center">GND</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -707,17 +803,28 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1932638-3_TE_AMP" prefix="P">
+<deviceset name="USB-A-FEMALE" prefix="P">
 <gates>
 <gate name="G$1" symbol="USB-A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1932638-3_TE_AMP">
+<device name="RECEPTACLE" package="1932638-3_TE_AMP">
 <connects>
 <connect gate="G$1" pin="+5V" pad="1"/>
 <connect gate="G$1" pin="D+" pad="3"/>
 <connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="4 GND0 GND1 GND2 GND3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TESTPOINT" package="USB-A-TESTPOINT">
+<connects>
+<connect gate="G$1" pin="+5V" pad="VCC"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -795,6 +902,62 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <connect gate="G$1" pin="OUT1" pad="15"/>
 <connect gate="G$1" pin="OUT2" pad="14"/>
 <connect gate="G$1" pin="OUT3" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN75240" prefix="U">
+<gates>
+<gate name="G$1" symbol="SN75240" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP8">
+<connects>
+<connect gate="G$1" pin="A" pad="8"/>
+<connect gate="G$1" pin="B" pad="6"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1 3 5 7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABMM-6.000MHZ-B2-T" prefix="X">
+<gates>
+<gate name="G$1" symbol="CRYSTAL-GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ABMM-6.000MHZ-B2-T">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FA-128" prefix="X">
+<description>Epson MHz RANGE CRYSTAL UNIT&lt;br&gt;
+ULTRA MINIATURE SIZE LOW PROFILE SMD&lt;br&gt;&lt;br&gt;
+&lt;a&gt;http://www.digikey.com/product-search/en?FV=ffec63d1&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL-GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FA-128">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
 </connects>
 <technologies>
 <technology name=""/>
