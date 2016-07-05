@@ -1832,13 +1832,13 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="-5.395" y1="3.9" x2="5.395" y2="3.9" width="0.1998" layer="39"/>
 <wire x1="5.395" y1="-3.9" x2="-5.395" y2="-3.9" width="0.1998" layer="39"/>
 <wire x1="-5.395" y1="-3.9" x2="-5.395" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="4.94" y1="-1.9" x2="-4.94" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-4.94" y1="-1.9" x2="-4.94" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-4.94" y1="-1.4" x2="-4.94" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-4.94" y1="1.9" x2="4.94" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="4.94" y1="-1.4" x2="-4.94" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="4.94" y1="1.9" x2="4.94" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="4.94" y1="-1.4" x2="4.94" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="4.94" y1="-1.9" x2="-4.94" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-4.94" y1="-1.9" x2="-4.94" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-4.94" y1="-1.4" x2="-4.94" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-4.94" y1="1.9" x2="4.94" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="4.94" y1="-1.4" x2="-4.94" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="4.94" y1="1.9" x2="4.94" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="4.94" y1="-1.4" x2="4.94" y2="-1.9" width="0.2032" layer="21"/>
 <wire x1="5.395" y1="3.9" x2="5.395" y2="-3.9" width="0.1998" layer="39"/>
 <smd name="2" x="-3.175" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="13" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
@@ -1874,25 +1874,6 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <rectangle x1="2.9299" y1="2" x2="3.4201" y2="3.1001" layer="51"/>
 <rectangle x1="-3.4201" y1="2" x2="-2.9299" y2="3.1001" layer="51"/>
 <rectangle x1="-4.6901" y1="2" x2="-4.1999" y2="3.1001" layer="51"/>
-</package>
-<package name="1932638-3_TE_AMP">
-<pad name="GND2" x="-6.9" y="0" drill="1.35"/>
-<pad name="GND3" x="6.9" y="0" drill="1.35"/>
-<pad name="GND0" x="-6.45" y="6.91" drill="0.95"/>
-<pad name="GND1" x="6.45" y="6.91" drill="0.95"/>
-<smd name="1" x="-3.5" y="9.18" dx="1.5" dy="3.25" layer="1"/>
-<smd name="2" x="-1" y="9.18" dx="1.5" dy="3.25" layer="1"/>
-<smd name="3" x="1" y="9.18" dx="1.5" dy="3.25" layer="1"/>
-<smd name="4" x="3.5" y="9.15" dx="1.5" dy="3.25" layer="1"/>
-<wire x1="-6.65" y1="5.5" x2="-6.65" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-6.65" y1="-2" x2="-6.65" y2="-4.7" width="0.127" layer="21"/>
-<wire x1="-6.65" y1="9.15" x2="-6.65" y2="8" width="0.127" layer="21"/>
-<wire x1="6.65" y1="-2" x2="6.65" y2="-4.7" width="0.127" layer="21"/>
-<wire x1="6.65" y1="5.5" x2="6.65" y2="1.5" width="0.127" layer="21"/>
-<wire x1="6.65" y1="9.15" x2="6.65" y2="8" width="0.127" layer="21"/>
-<wire x1="-6.65" y1="-4.7" x2="6.65" y2="-4.7" width="0.127" layer="21"/>
-<wire x1="-6.65" y1="9.15" x2="6.65" y2="9.15" width="0.127" layer="21"/>
-<text x="-9" y="-5" size="1" layer="21" font="vector" rot="R90">&gt;NAME</text>
 </package>
 <package name="USB-A-TESTPOINT">
 <smd name="VCC" x="0" y="0" dx="1.5" dy="3" layer="1"/>
@@ -1939,10 +1920,23 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="-3.5941" y1="2.6035" x2="-3.5941" y2="-2.6035" width="0.127" layer="21"/>
 <wire x1="-3.5941" y1="-2.6035" x2="3.5941" y2="-2.6035" width="0.127" layer="21"/>
 <wire x1="3.5941" y1="2.6035" x2="3.5941" y2="-2.6035" width="0.127" layer="21"/>
-<text x="-3.556" y="3.048" size="1.27" layer="21" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.556" y="3.048" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <wire x1="-3.81" y1="-0.254" x2="-4.572" y2="-0.254" width="0.127" layer="21"/>
 <wire x1="-4.572" y1="-0.254" x2="-4.572" y2="-2.286" width="0.127" layer="21"/>
 <wire x1="-4.572" y1="-2.286" x2="-3.81" y2="-2.286" width="0.127" layer="21"/>
+</package>
+<package name="87583-3010RPALF">
+<smd name="1" x="-3.5" y="3.58" dx="1.12" dy="2.88" layer="1"/>
+<smd name="2" x="-1" y="3.58" dx="1.12" dy="2.88" layer="1"/>
+<smd name="3" x="1" y="3.58" dx="1.12" dy="2.88" layer="1"/>
+<smd name="4" x="3.5" y="3.58" dx="1.12" dy="2.88" layer="1"/>
+<wire x1="-6.65" y1="4.15" x2="-6.65" y2="-10.28" width="0.127" layer="21"/>
+<wire x1="6.65" y1="4.15" x2="6.65" y2="-10.28" width="0.127" layer="21"/>
+<wire x1="-6.65" y1="-10.28" x2="6.65" y2="-10.28" width="0.127" layer="21"/>
+<wire x1="-6.65" y1="4.15" x2="6.65" y2="4.15" width="0.127" layer="21"/>
+<text x="-8" y="-8" size="1" layer="21" font="vector" rot="R90">&gt;NAME</text>
+<pad name="P$1" x="-6.57" y="0" drill="2.3"/>
+<pad name="P$2" x="6.57" y="0" drill="2.3"/>
 </package>
 </packages>
 <symbols>
@@ -2127,46 +2121,28 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1932638-3_TE_AMP" prefix="P">
-<gates>
-<gate name="G$1" symbol="USB-A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1932638-3_TE_AMP">
-<connects>
-<connect gate="G$1" pin="+5V" pad="1"/>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="4 GND0 GND1 GND2 GND3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="USB-A-FEMALE" prefix="P">
 <gates>
 <gate name="G$1" symbol="USB-A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="RECEPTACLE" package="1932638-3_TE_AMP">
-<connects>
-<connect gate="G$1" pin="+5V" pad="1"/>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="4 GND0 GND1 GND2 GND3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="TESTPOINT" package="USB-A-TESTPOINT">
 <connects>
 <connect gate="G$1" pin="+5V" pad="VCC"/>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="87583-3010RPALF">
+<connects>
+<connect gate="G$1" pin="+5V" pad="1"/>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4 P$1 P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2993,8 +2969,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
 <part name="U5" library="BMO" deviceset="TUSB2036VF" device=""/>
 <part name="U1" library="BMO" deviceset="TPS2043B" device=""/>
-<part name="P1" library="BMO" deviceset="1932638-3_TE_AMP" device=""/>
-<part name="P2" library="BMO" deviceset="1932638-3_TE_AMP" device=""/>
 <part name="GND2" library="umich" deviceset="GND" device=""/>
 <part name="GND1" library="umich" deviceset="GND" device=""/>
 <part name="P3" library="BMO" deviceset="USB-A-FEMALE" device="TESTPOINT"/>
@@ -3044,6 +3018,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R15" library="passives" deviceset="RESISTOR" device="0402_RES" value="1.5k"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="C15" library="passives" deviceset="CAPACITOR" device="" value="0.1u"/>
+<part name="P1" library="BMO" deviceset="USB-A-FEMALE" device=""/>
+<part name="P2" library="BMO" deviceset="USB-A-FEMALE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3054,8 +3030,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="U5" gate="A" x="45.72" y="111.76"/>
 <instance part="U1" gate="G$1" x="142.24" y="50.8"/>
-<instance part="P1" gate="G$1" x="228.6" y="86.36"/>
-<instance part="P2" gate="G$1" x="228.6" y="124.46"/>
 <instance part="GND2" gate="1" x="76.2" y="68.58"/>
 <instance part="GND1" gate="1" x="15.24" y="68.58"/>
 <instance part="P3" gate="G$1" x="228.6" y="160.02"/>
@@ -3111,6 +3085,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="R15" gate="G$1" x="88.9" y="53.34" rot="R90"/>
 <instance part="JP1" gate="G$1" x="190.5" y="43.18"/>
 <instance part="C15" gate="G$1" x="7.62" y="96.52"/>
+<instance part="P1" gate="G$1" x="228.6" y="86.36"/>
+<instance part="P2" gate="G$1" x="228.6" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -3227,8 +3203,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="220.98" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P2" gate="G$1" pin="GND"/>
-<wire x1="223.52" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="121.92" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="106.68" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -3236,6 +3210,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="215.9" y1="106.68" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <junction x="218.44" y="106.68"/>
+<pinref part="P2" gate="G$1" pin="GND"/>
+<wire x1="223.52" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="220.98" y1="83.82" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
@@ -3246,7 +3222,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="GND9" gate="1" pin="GND"/>
 <junction x="218.44" y="71.12"/>
 <pinref part="P1" gate="G$1" pin="GND"/>
-<wire x1="223.52" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -3316,7 +3292,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <junction x="142.24" y="119.38"/>
 <junction x="167.64" y="119.38"/>
 <pinref part="P1" gate="G$1" pin="D-"/>
-<wire x1="187.96" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -3335,25 +3311,25 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <junction x="139.7" y="116.84"/>
 <junction x="185.42" y="109.22"/>
 <pinref part="P1" gate="G$1" pin="D+"/>
-<wire x1="185.42" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="86.36" x2="185.42" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <wire x1="190.5" y1="147.32" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="P2" gate="G$1" pin="D+"/>
-<wire x1="223.52" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="147.32" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="P2" gate="G$1" pin="D+"/>
+<wire x1="223.52" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="P2" gate="G$1" pin="D-"/>
-<wire x1="223.52" y1="127" x2="193.04" y2="127" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="127" x2="193.04" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="P2" gate="G$1" pin="D-"/>
+<wire x1="223.52" y1="127" x2="193.04" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -3509,20 +3485,20 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="81.28" x2="215.9" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="+5V"/>
-<wire x1="215.9" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="91.44" x2="215.9" y2="91.44" width="0.1524" layer="91"/>
 <junction x="215.9" y="91.44"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="P2" gate="G$1" pin="+5V"/>
-<wire x1="223.52" y1="129.54" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="129.54" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="OUT2"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="116.84" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="P2" gate="G$1" pin="+5V"/>
+<wire x1="223.52" y1="129.54" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
 <junction x="215.9" y="129.54"/>
 </segment>
 </net>
