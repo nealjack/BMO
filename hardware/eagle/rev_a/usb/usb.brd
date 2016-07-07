@@ -130,19 +130,20 @@
 <wire x1="44" y1="18.5" x2="44" y2="0" width="0" layer="20"/>
 <hole x="41" y="14" drill="3"/>
 <wire x1="-5" y1="-3" x2="-5" y2="18.5" width="0" layer="20"/>
-<wire x1="17" y1="-0.5" x2="37.0857875" y2="-0.5" width="0" layer="20"/>
+<wire x1="14.5" y1="-3" x2="16.70710625" y2="-0.79289375" width="0" layer="20"/>
+<wire x1="16.70710625" y1="-0.79289375" x2="17.4142125" y2="-0.5" width="0" layer="20" curve="-45"/>
+<wire x1="17.4142125" y1="-0.5" x2="37.0857875" y2="-0.5" width="0" layer="20"/>
 <wire x1="37.0857875" y1="-0.5" x2="37.79289375" y2="-0.79289375" width="0" layer="20" curve="-45"/>
 <wire x1="37.79289375" y1="-0.79289375" x2="40" y2="-3" width="0" layer="20"/>
 <wire x1="14.5" y1="-3" x2="-5" y2="-3" width="0" layer="20"/>
 <wire x1="40" y1="-3" x2="41" y2="-3" width="0" layer="20"/>
 <wire x1="44" y1="0" x2="41" y2="-3" width="0" layer="20" curve="-90"/>
-<text x="38.5" y="15" size="1.016" layer="52" font="vector" rot="MR0">BMO USB
+<text x="38.5" y="15" size="1.016" layer="26" font="vector" rot="MR0">BMO USB
 REV A</text>
-<wire x1="14.5" y1="-3" x2="17" y2="-0.5" width="0" layer="20"/>
 <text x="40.4" y="11.2" size="0.8128" layer="21" font="vector" ratio="10">3v3</text>
 <text x="40.5" y="2" size="0.8128" layer="21" font="vector" ratio="10">GND</text>
 <text x="43" y="7.5" size="0.6096" layer="21" font="vector" ratio="10" rot="R270">5V</text>
-<text x="39" y="12.5" size="0.8128" layer="52" font="vector" ratio="10" rot="MR0">N.Jackson
+<text x="39" y="12.5" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0">N.Jackson
 7/16</text>
 </plain>
 <libraries>
@@ -439,7 +440,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -507,7 +508,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="25mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
