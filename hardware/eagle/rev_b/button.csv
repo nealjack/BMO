@@ -1,0 +1,14 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MOUSER";
+"3";"";"M02PTH";"1X02";"JP1, LB, RB";"Header 2";"";
+"1";"";"M04PTH";"1X04";"JP2";"Header 4";"";
+"1";"10u";"INDUCTOR0402";"0402_CAP";"L1";"";"";
+"1";"2.2n";"CAPACITOR";"0402_CAP";"C1";"0402 Capacitor";"";
+"2";"22u";"CAPACITOR";"0402_CAP";"C2, C3";"0402 Capacitor";"";
+"1";"24k";"RESISTOR0402_RES";"0402_RES";"R2";"Resistor";"";
+"1";"40.2k";"RESISTOR0402_RES";"0402_RES";"R3";"Resistor";"";
+"1";"7.5k";"RESISTOR0402_RES";"0402_RES";"R1";"Resistor";"";
+"2";"EVQ11D09K";"EVQ11D09K";"EVQ11D09K";"SELECT, START";"";"";
+"1";"LM2622";"LM2622";"MSOP8";"U1";"";"";
+"1";"MBRM140T3G";"MBRM140T3G";"DO-216AA";"D1";"";"";
+"9";"SKPDAMD010";"SKPDAMD010";"SKPDAMD010";"A, B, DOWN, LEFT, PWRON, RIGHT, UP, X, Y";"";"688-SKPDAM";
+"1";"TEENSY_LC";"TEENSY_LC";"TEENSY_LC";"TEENSY";"";"";

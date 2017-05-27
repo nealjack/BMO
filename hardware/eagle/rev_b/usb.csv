@@ -1,0 +1,16 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DIGIKEY";"MOUSER";"NEWARK";
+"1";"";"M03PTH";"1X03";"JP1";"Header 3";"";"";"";
+"2";"0.1u";"CAPACITOR";"0402_CAP";"C12, C15";"0402 Capacitor";"";"";"";
+"1";"1.5k";"RESISTOR0402_RES";"0402_RES";"R15";"Resistor";"";"";"";
+"3";"100u";"CAPACITOR";"0402_CAP";"C9, C10, C11";"0402 Capacitor";"";"";"";
+"6";"15k";"RESISTOR0402_RES";"0402_RES";"R7, R8, R9, R10, R11, R12";"Resistor";"";"";"";
+"8";"22p";"CAPACITOR";"0402_CAP";"C1, C2, C3, C4, C5, C6, C13, C14";"0402 Capacitor";"";"";"";
+"8";"27";"RESISTOR0402_RES";"0402_RES";"R1, R2, R3, R4, R5, R6, R13, R14";"Resistor";"";"";"";
+"2";"27p";"CAPACITOR";"0402_CAP";"C7, C8";"0402 Capacitor";"";"";"";
+"1";"ABMM-6.000MHZ-B2-T";"ABMM-6.000MHZ-B2-T";"ABMM-6.000MHZ-B2-T";"X1";"";"";"";"";
+"1";"MICRO_USB_B_HIROSE_ZX62-B-5PA(11)";"MICRO_USB_B_HIROSE_ZX62-B-5PA(11)";"USB_MICRO_B-HIROSE-ZX62-B-5PA(11)";"J1";"Connector Receptacle USB - micro B 2.0 5 Position Surface Mount, Right Angle, Horizontal";"H11634CT-ND";"798-ZX62-B-5PA11";"86P8793";
+"3";"SN75240";"SN75240";"TSSOP8";"U2, U3, U4";"";"";"";"";
+"1";"TPS2043B";"TPS2043B";"SO16";"U1";"";"";"";"";
+"1";"TUSB2036VF";"TUSB2036VF";"VF_S-PQFP-G32";"U5";"2/3 port Hub for the Universal serial bus with optional serial EEPROM Interface";"";"";"";
+"2";"USB-A-FEMALE";"USB-A-FEMALE";"87583-3010RPALF";"P1, P2";"";"";"";"";
+"1";"USB-A-FEMALETESTPOINT";"USB-A-FEMALETESTPOINT";"USB-A-TESTPOINT";"P3";"";"";"";"";
