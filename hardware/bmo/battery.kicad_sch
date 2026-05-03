@@ -2386,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 82.55) (xy 191.77 82.55)
+			(xy 189.23 82.55) (xy 191.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2636,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 77.47) (xy 182.88 72.39)
+			(xy 181.61 77.47) (xy 181.61 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 82.55) (xy 180.34 82.55)
+			(xy 154.94 82.55) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2706,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 72.39) (xy 187.96 72.39)
+			(xy 181.61 72.39) (xy 187.96 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5167,7 +5167,7 @@
 	)
 	(symbol
 		(lib_id "bmo:CSD17571Q2")
-		(at 185.42 80.01 270)
+		(at 184.15 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5178,7 +5178,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9e0da3d-ebc9-4017-89b3-52ceb5c48814")
 		(property "Reference" "Q1"
-			(at 185.42 86.36 90)
+			(at 184.15 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5188,7 +5188,7 @@
 			)
 		)
 		(property "Value" "CSD17571Q2"
-			(at 185.42 88.9 90)
+			(at 184.15 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5198,7 +5198,7 @@
 			)
 		)
 		(property "Footprint" "bmo:TRANS_CSD17571Q2"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5210,7 +5210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5221,7 +5221,7 @@
 			)
 		)
 		(property "Description" "30-V, N channel NexFET™ power MOSFET, single SON 2 mm x 2 mm, 29 mOhm"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5233,7 +5233,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5245,7 +5245,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.85 mm"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5257,7 +5257,7 @@
 			)
 		)
 		(property "Package" "WSON-6 Texas Instruments"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,7 +5269,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5281,7 +5281,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CSD17571Q2/Texas+Instruments/view-part/?ref=eda"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5293,7 +5293,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5305,7 +5305,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5317,7 +5317,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CSD17571Q2/Texas+Instruments/view-part/?ref=snap"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,7 +5329,7 @@
 			)
 		)
 		(property "MP" "CSD17571Q2"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +5341,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5353,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 185.42 80.01 0)
+			(at 184.15 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

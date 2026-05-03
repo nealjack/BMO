@@ -1,5 +1,4 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "bmo") (type "KiCad") (uri "${KIPRJMOD}/bmo.kicad_sym") (options "") (descr ""))
-	(lib (name "TPS61088RHLR") (type "KiCad") (uri "//wsl.localhost/Ubuntu/home/nealjack/git/bmo/hardware/libs/TPS61088RHLR/TPS61088RHLR.kicad_sym") (options "") (descr ""))
 )
