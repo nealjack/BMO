@@ -1,0 +1,136 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 26.67)
+		(size 34.29 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "85b2d98d-13b1-41ec-93aa-daec3656f713")
+		(property "Sheetname" "battery"
+			(at 25.4 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 25.4 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FUEL_ALERT" output
+			(at 25.4 31.75 180)
+			(uuid "92cd2cfc-95a9-4eac-9c02-1ba6e8c928fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 25.4 34.29 180)
+			(uuid "4550db93-a83b-4209-a721-584e3b6b42ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 25.4 36.83 180)
+			(uuid "e00a272e-4491-4823-8087-b497b9969712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 27.94)
+		(size 36.83 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eaf1b6dc-d642-4333-b5f7-d7468428f90f")
+		(property "Sheetname" "Charger + Regulation"
+			(at 86.36 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charge_reg.kicad_sch"
+			(at 86.36 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
