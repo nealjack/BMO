@@ -1675,6 +1675,26 @@
 					)
 				)
 			)
+			(symbol "BQ25606RGET_1_0"
+				(pin power_in line
+					(at 17.78 -30.48 180)
+					(length 5.08)
+					(name "THERMAL_PAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "bmo:SIA445EDJ-T1-GE3"
@@ -3103,7 +3123,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 7.62 0)
+					(at -17.78 -24.13 0)
 					(length 5.08)
 					(name "FB"
 						(effects
@@ -3340,6 +3360,145 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3748,10 +3907,46 @@
 		(uuid "045c9f08-b6d1-4c77-b6c0-e30b913c59c5")
 	)
 	(junction
+		(at 276.86 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "071b135c-339c-4d87-9443-9e22b67910ed")
+	)
+	(junction
 		(at 113.03 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10708aeb-88bc-4801-a198-a6fb78b198c6")
+	)
+	(junction
+		(at 77.47 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1136e6f4-d203-4a2a-8c10-632dca5eea55")
+	)
+	(junction
+		(at 69.85 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "163c157e-d439-4a7d-95ea-6d1e00c38a0e")
+	)
+	(junction
+		(at 250.19 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19765829-4a87-440f-bf63-42b6b8209d23")
+	)
+	(junction
+		(at 121.92 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c26d368-b5bf-454e-8c4c-8c043ab68e24")
+	)
+	(junction
+		(at 116.84 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e1478f5-4b06-4cc7-9baa-a97e6c67db75")
 	)
 	(junction
 		(at 33.02 67.31)
@@ -3760,10 +3955,64 @@
 		(uuid "21fe977a-e4d6-4ad2-a1bf-9a345c910a9b")
 	)
 	(junction
+		(at 232.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28e40b6d-fe56-4a2b-bf01-8be1bf5e2226")
+	)
+	(junction
 		(at 63.5 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e1b18ea-ff88-4d2e-8a64-c4739f0c270e")
+	)
+	(junction
+		(at 59.69 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3429d70d-3810-4205-8060-a278a4e300ad")
+	)
+	(junction
+		(at 148.59 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d17a1af-85cc-4eac-acfe-8370caacc9d9")
+	)
+	(junction
+		(at 191.77 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41663b43-323f-4792-aa5f-8c5810570866")
+	)
+	(junction
+		(at 83.82 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "417aaaff-75d5-4af2-9863-693b40fa7e22")
+	)
+	(junction
+		(at 267.97 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "465686e0-0b13-4621-a1f5-cf9327cd6fff")
+	)
+	(junction
+		(at 167.64 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a21daaf-0bc4-4a53-a620-47ca8b0df68a")
+	)
+	(junction
+		(at 38.1 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e50708b-6395-4955-9d53-80a8842e4d36")
+	)
+	(junction
+		(at 121.92 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "519e6de8-b4ab-4d89-a15d-5b79ec6f6de0")
 	)
 	(junction
 		(at 116.84 81.28)
@@ -3778,10 +4027,40 @@
 		(uuid "5b6afe71-8f2b-4351-813b-24187f0bd7d3")
 	)
 	(junction
+		(at 167.64 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c3fd37c-cf6f-469a-8b0d-28234c6e7d33")
+	)
+	(junction
 		(at 45.72 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60a5e715-9251-4f3c-bc01-72f409d0ab77")
+	)
+	(junction
+		(at 121.92 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "633eb5ea-395b-4523-9593-7e407b7478fa")
+	)
+	(junction
+		(at 267.97 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "675eb4d0-2c21-4d83-b087-015b6ccf7758")
+	)
+	(junction
+		(at 173.99 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b411f62-c6bc-4f90-94df-678a687d1d28")
+	)
+	(junction
+		(at 74.93 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b64232f-f9ce-4f65-a055-91b1fc725615")
 	)
 	(junction
 		(at 64.77 81.28)
@@ -3790,10 +4069,52 @@
 		(uuid "6d7b5f78-fa09-40cc-8bd6-3070e43a3e09")
 	)
 	(junction
+		(at 251.46 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754294a2-314d-42ae-877a-fe98c98361cf")
+	)
+	(junction
+		(at 121.92 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b4d2e0-eea0-42eb-b73b-e8cc57b1ee52")
+	)
+	(junction
+		(at 167.64 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ea3862d-03df-41a4-81c0-27e08ef39c94")
+	)
+	(junction
+		(at 229.87 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "825aeb73-10ef-4568-997b-faecdf3946ea")
+	)
+	(junction
 		(at 147.32 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8640b8f1-2891-4449-8245-bbf12cdb322b")
+	)
+	(junction
+		(at 76.2 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eca1ea2-bafc-4b44-b80e-312ee9251246")
+	)
+	(junction
+		(at 251.46 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f4f37a2-63ee-4dc7-a976-fe826c934903")
+	)
+	(junction
+		(at 121.92 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94298234-0692-457a-82fa-f8f4675c68aa")
 	)
 	(junction
 		(at 69.85 45.72)
@@ -3802,10 +4123,28 @@
 		(uuid "96d33fb8-d4ac-44bc-820f-f58042e9923e")
 	)
 	(junction
-		(at 148.59 95.25)
+		(at 229.87 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ac4df37-1458-4298-b741-7536a7a60e16")
+		(uuid "97f63530-553c-4967-b548-3d3aed029faf")
+	)
+	(junction
+		(at 191.77 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98c00c9f-eccc-4736-aa43-fdd4392f0e0c")
+	)
+	(junction
+		(at 177.8 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d4a3e9f-9571-46b4-8f8f-ae6dd0ac4aef")
+	)
+	(junction
+		(at 191.77 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a38818c5-ebb7-4052-979e-10beb7103b40")
 	)
 	(junction
 		(at 54.61 45.72)
@@ -3814,10 +4153,34 @@
 		(uuid "a762b78b-3b1c-4d93-8755-d3667052cd1a")
 	)
 	(junction
+		(at 38.1 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac180e39-80a4-484b-a73a-2786b1b117f5")
+	)
+	(junction
 		(at 134.62 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae75c76b-411a-4025-b0fc-2e76f0e7b177")
+	)
+	(junction
+		(at 121.92 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c20e4d-5afc-4ce0-8af8-f667f4f63d96")
+	)
+	(junction
+		(at 241.3 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b54b576d-51bf-4fbc-bffc-ad8aebf6b375")
+	)
+	(junction
+		(at 110.49 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7631d86-767d-4a79-a791-a3ba1ddc4af4")
 	)
 	(junction
 		(at 113.03 95.25)
@@ -3826,10 +4189,34 @@
 		(uuid "c01ba606-f933-45ff-8825-66d3eee0b06c")
 	)
 	(junction
+		(at 115.57 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0b965a6-74c0-4fee-a900-ef67310fba0d")
+	)
+	(junction
 		(at 151.13 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c79c4c08-9844-446a-88c5-5a279ec08952")
+	)
+	(junction
+		(at 115.57 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9552fb6-918a-48cb-9b85-4fb74a318277")
+	)
+	(junction
+		(at 48.26 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf16b205-a5f1-4ac4-9b80-b947dc95be32")
+	)
+	(junction
+		(at 59.69 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df766e61-b9b2-46aa-a417-3e301daeca3d")
 	)
 	(junction
 		(at 22.86 69.85)
@@ -3843,6 +4230,34 @@
 		(color 0 0 0 0)
 		(uuid "e13fcf8e-60ec-4a96-87dd-ab93dcedc0bd")
 	)
+	(junction
+		(at 259.08 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2cb1570-43ee-4a4b-b88d-c970405c4010")
+	)
+	(junction
+		(at 184.15 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec3077fe-3411-4125-b946-7b1604d90c76")
+	)
+	(junction
+		(at 259.08 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee1a524f-ec76-4f3b-8744-d39490414332")
+	)
+	(junction
+		(at 184.15 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbda0a80-9807-404c-993d-7eaed82e2a26")
+	)
+	(no_connect
+		(at 229.87 77.47)
+		(uuid "08943b12-18db-4a94-9e23-2674122a36a8")
+	)
 	(no_connect
 		(at 74.93 92.71)
 		(uuid "1ce43ed6-8963-4d54-8166-c0bd903f7ecf")
@@ -3852,8 +4267,36 @@
 		(uuid "2e8315bb-6af0-42b5-9f53-fc64a503183b")
 	)
 	(no_connect
+		(at 194.31 67.31)
+		(uuid "b386945b-4f07-4499-8e53-a8468bc1a292")
+	)
+	(no_connect
 		(at 74.93 87.63)
 		(uuid "e5134243-0207-438c-b330-2a8f2747f1d2")
+	)
+	(no_connect
+		(at 229.87 80.01)
+		(uuid "f4a5204a-28d4-4384-be27-167062e8993b")
+	)
+	(wire
+		(pts
+			(xy 184.15 41.91) (xy 184.15 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a8dd29-d3d4-47d9-8813-1b4f35948861")
+	)
+	(wire
+		(pts
+			(xy 69.85 175.26) (xy 83.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015433c7-2352-44df-8c2d-e914d229b4eb")
 	)
 	(wire
 		(pts
@@ -3867,6 +4310,46 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 185.42) (xy 121.92 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082911ce-75b3-43ae-a05d-e51fc7d46637")
+	)
+	(wire
+		(pts
+			(xy 38.1 152.4) (xy 77.47 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085dabf6-6075-4103-ba9f-c0e493511e3f")
+	)
+	(wire
+		(pts
+			(xy 77.47 154.94) (xy 77.47 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092b018b-2d32-49d5-b50a-1914098f3ab3")
+	)
+	(wire
+		(pts
+			(xy 114.3 129.54) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2beb5e-f419-4080-91d1-a7f6a5a0cf72")
+	)
+	(wire
+		(pts
 			(xy 116.84 87.63) (xy 116.84 88.9)
 		)
 		(stroke
@@ -3874,6 +4357,16 @@
 			(type default)
 		)
 		(uuid "0d6eb58e-ed82-4ef4-aae3-e83ee12d582d")
+	)
+	(wire
+		(pts
+			(xy 229.87 57.15) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ded5ed2-d946-4460-bf1e-039c251d4d7f")
 	)
 	(wire
 		(pts
@@ -3887,6 +4380,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 97.79) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4dba15-82f6-4555-8c49-5994998ac4a1")
+	)
+	(wire
+		(pts
+			(xy 38.1 127) (xy 38.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc320fb-4326-46b4-9a60-ef72080466aa")
+	)
+	(wire
+		(pts
 			(xy 64.77 58.42) (xy 63.5 58.42)
 		)
 		(stroke
@@ -3894,6 +4407,16 @@
 			(type default)
 		)
 		(uuid "114dc8a1-f342-4db5-81f0-8e1c94827a29")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 115.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e397c4-e850-49aa-a7f9-4b496b119fe2")
 	)
 	(wire
 		(pts
@@ -3917,6 +4440,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 41.91) (xy 167.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a25f653-1885-42a6-8985-87a45de386d2")
+	)
+	(wire
+		(pts
+			(xy 121.92 182.88) (xy 121.92 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b555d75-9856-400e-a822-46a0d4130d62")
+	)
+	(wire
+		(pts
 			(xy 151.13 40.64) (xy 151.13 44.45)
 		)
 		(stroke
@@ -3924,6 +4467,26 @@
 			(type default)
 		)
 		(uuid "1ccfbbdb-9b34-437f-b2d9-bc3caeb8330b")
+	)
+	(wire
+		(pts
+			(xy 110.49 105.41) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e32a14a-695e-4cb2-9e55-f74c7e0c38f1")
+	)
+	(wire
+		(pts
+			(xy 191.77 74.93) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2016c8e2-bf79-4719-8c43-0eb9ef51708e")
 	)
 	(wire
 		(pts
@@ -3937,6 +4500,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 171.45) (xy 77.47 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b0f6a4-15c0-4d78-aa1e-294b42842739")
+	)
+	(wire
+		(pts
 			(xy 110.49 62.23) (xy 114.3 62.23)
 		)
 		(stroke
@@ -3944,6 +4517,16 @@
 			(type default)
 		)
 		(uuid "23e226ec-153a-4092-a329-312a4af7b6cd")
+	)
+	(wire
+		(pts
+			(xy 133.35 175.26) (xy 121.92 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24891053-5041-4012-9b0d-8f3c24b8abfe")
 	)
 	(wire
 		(pts
@@ -3957,6 +4540,66 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 52.07) (xy 184.15 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28074a01-9e2f-4ce5-9850-eef22f5d7669")
+	)
+	(wire
+		(pts
+			(xy 115.57 140.97) (xy 115.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285a7f54-10d4-43ca-86cf-b1292441d843")
+	)
+	(wire
+		(pts
+			(xy 121.92 137.16) (xy 121.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290a3b43-bd68-436f-b633-2eddff94934f")
+	)
+	(wire
+		(pts
+			(xy 267.97 44.45) (xy 259.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299cbcf7-61b3-4137-bc22-a65b3a5e1f6e")
+	)
+	(wire
+		(pts
+			(xy 251.46 78.74) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6cbdd6-851c-4e17-9037-846cc12af582")
+	)
+	(wire
+		(pts
+			(xy 173.99 41.91) (xy 184.15 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cec8c28-be9f-4e28-900a-49941fa0c6c9")
+	)
+	(wire
+		(pts
 			(xy 63.5 45.72) (xy 69.85 45.72)
 		)
 		(stroke
@@ -3964,6 +4607,16 @@
 			(type default)
 		)
 		(uuid "3017ccdf-9d06-4df4-854b-12f234e2ca01")
+	)
+	(wire
+		(pts
+			(xy 259.08 44.45) (xy 250.19 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3076c486-01ad-410b-b48f-f54051bf1a3b")
 	)
 	(wire
 		(pts
@@ -3977,6 +4630,46 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 68.58) (xy 241.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31695da2-e68d-421b-a66f-f23a400f4de7")
+	)
+	(wire
+		(pts
+			(xy 167.64 41.91) (xy 173.99 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3215c093-3c37-44a2-aacd-56f6c59608b4")
+	)
+	(wire
+		(pts
+			(xy 251.46 83.82) (xy 251.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3280edec-16b7-407c-b431-636df8a39dd9")
+	)
+	(wire
+		(pts
+			(xy 191.77 80.01) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337833a5-622b-4c45-9d3a-f6764a2535b8")
+	)
+	(wire
+		(pts
 			(xy 33.02 55.88) (xy 33.02 59.69)
 		)
 		(stroke
@@ -3987,13 +4680,83 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 107.95) (xy 116.84 102.87)
+			(xy 232.41 64.77) (xy 232.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f2f9ae-c00d-41ab-aefe-32d2e09e3c6e")
+	)
+	(wire
+		(pts
+			(xy 69.85 144.78) (xy 69.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365802a9-826e-4aa9-bc75-b1b3f4580e37")
+	)
+	(wire
+		(pts
+			(xy 116.84 107.95) (xy 116.84 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36bb7073-c7aa-4c23-835d-15f856d66e46")
+	)
+	(wire
+		(pts
+			(xy 69.85 139.7) (xy 69.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ae6347-9e80-4cbf-950f-9fcc31854f33")
+	)
+	(wire
+		(pts
+			(xy 144.78 144.78) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b6ed3e-1d80-4196-a382-21de65aa8246")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 191.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e8147e-e3ee-43f2-a4e8-fa485964532e")
+	)
+	(wire
+		(pts
+			(xy 115.57 140.97) (xy 77.47 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a00f447-4a99-4726-a701-cf8529fe4b86")
+	)
+	(wire
+		(pts
+			(xy 115.57 119.38) (xy 76.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1bd338-bedb-4094-a32d-ab1fb59c4966")
 	)
 	(wire
 		(pts
@@ -4004,6 +4767,16 @@
 			(type default)
 		)
 		(uuid "3aea8713-911f-48b3-8e01-bd4c79a8eccb")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2efb27-2f60-413a-baae-95a8ebfb4898")
 	)
 	(wire
 		(pts
@@ -4037,6 +4810,116 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 154.94) (xy 115.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4b8a11-c16f-43dd-881e-75ff82850f53")
+	)
+	(wire
+		(pts
+			(xy 82.55 171.45) (xy 83.82 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408117f9-584c-4d81-9e50-f864dbef50e1")
+	)
+	(wire
+		(pts
+			(xy 59.69 190.5) (xy 59.69 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420e22e6-ddb5-4093-a224-ec8e17bca011")
+	)
+	(wire
+		(pts
+			(xy 59.69 158.75) (xy 59.69 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43db86a1-3ba9-4e5a-859a-1746585fec3e")
+	)
+	(wire
+		(pts
+			(xy 177.8 68.58) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4576ea5e-0dfe-40c5-ba92-9ad832649ae6")
+	)
+	(wire
+		(pts
+			(xy 232.41 74.93) (xy 241.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477f14c7-39ce-4057-ad46-cfc4cc3cebd6")
+	)
+	(wire
+		(pts
+			(xy 48.26 180.34) (xy 48.26 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494d99c1-d678-483d-9938-6973238995c8")
+	)
+	(wire
+		(pts
+			(xy 250.19 44.45) (xy 250.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ab8f9d-ffb1-474d-b8a0-eccee2ceb7cd")
+	)
+	(wire
+		(pts
+			(xy 191.77 72.39) (xy 191.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3a85c5-eb45-498e-baef-f982c2625261")
+	)
+	(wire
+		(pts
+			(xy 49.53 180.34) (xy 48.26 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b05912f-57a8-46d8-9ec3-00b1e894a30f")
+	)
+	(wire
+		(pts
+			(xy 76.2 119.38) (xy 76.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b99dcc7-9489-43e0-837c-762bb02cd68e")
+	)
+	(wire
+		(pts
 			(xy 140.97 40.64) (xy 134.62 40.64)
 		)
 		(stroke
@@ -4047,6 +4930,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 105.41) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1c5f0b-295d-4d93-a4ab-492049fa8c13")
+	)
+	(wire
+		(pts
+			(xy 177.8 63.5) (xy 177.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f90d216-947a-49bd-91d1-8c6c70ec8eb3")
+	)
+	(wire
+		(pts
 			(xy 22.86 59.69) (xy 22.86 55.88)
 		)
 		(stroke
@@ -4054,6 +4957,16 @@
 			(type default)
 		)
 		(uuid "51acbbe6-82ac-4e36-b373-5135c68e955c")
+	)
+	(wire
+		(pts
+			(xy 241.3 62.23) (xy 241.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d16cad-4b77-4416-acc1-aeb74fff01f1")
 	)
 	(wire
 		(pts
@@ -4087,6 +5000,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 41.91) (xy 173.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5964b44f-8931-406a-8b63-bdb6dc6907c2")
+	)
+	(wire
+		(pts
 			(xy 63.5 41.91) (xy 63.5 45.72)
 		)
 		(stroke
@@ -4097,7 +5020,67 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 88.9) (xy 43.18 96.52)
+			(xy 232.41 90.17) (xy 232.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee4e72b-530e-4503-88dc-3dd3332947cf")
+	)
+	(wire
+		(pts
+			(xy 191.77 74.93) (xy 194.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61615a9b-585e-4c4a-a2ee-2f5d1988e110")
+	)
+	(wire
+		(pts
+			(xy 267.97 50.8) (xy 276.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621807f3-6c96-4b94-995e-98ca93e26ba9")
+	)
+	(wire
+		(pts
+			(xy 74.93 149.86) (xy 74.93 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62902df6-8bea-4476-bafe-ca133e1904f0")
+	)
+	(wire
+		(pts
+			(xy 114.3 137.16) (xy 121.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f7bcca-9ddd-498c-9215-77e787fbc60e")
+	)
+	(wire
+		(pts
+			(xy 276.86 44.45) (xy 267.97 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1085dd-5a91-44ab-a6a1-fbee01d8b3c9")
+	)
+	(wire
+		(pts
+			(xy 40.64 88.9) (xy 40.64 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4117,13 +5100,43 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 83.82) (xy 43.18 76.2)
+			(xy 251.46 41.91) (xy 254 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfd9469-fb14-466c-a5d8-4c79a0296f2e")
+	)
+	(wire
+		(pts
+			(xy 40.64 83.82) (xy 40.64 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e04ee63-65b4-4f7b-8bbb-403489e37edf")
+	)
+	(wire
+		(pts
+			(xy 167.64 72.39) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e74e060-cc17-44e4-b894-fa7361b550af")
+	)
+	(wire
+		(pts
+			(xy 38.1 175.26) (xy 38.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8913d9-6b26-4fc5-8a4f-507549def648")
 	)
 	(wire
 		(pts
@@ -4177,6 +5190,36 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 154.94) (xy 115.57 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c85536-6e11-455f-8e1e-f18df0de6662")
+	)
+	(wire
+		(pts
+			(xy 184.15 41.91) (xy 194.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776b1da6-9833-419b-94e9-d549a7081c8a")
+	)
+	(wire
+		(pts
+			(xy 251.46 90.17) (xy 261.62 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c8099b-e24e-4203-823b-8aaff91bf726")
+	)
+	(wire
+		(pts
 			(xy 45.72 55.88) (xy 45.72 59.69)
 		)
 		(stroke
@@ -4184,6 +5227,16 @@
 			(type default)
 		)
 		(uuid "793e2784-c00b-4dda-8c8d-7d8fdef2dda4")
+	)
+	(wire
+		(pts
+			(xy 121.92 175.26) (xy 121.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9c22fa-07a3-4b36-a7ff-91bff65167ac")
 	)
 	(wire
 		(pts
@@ -4227,6 +5280,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 154.94) (xy 77.47 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3d7b92-284d-4821-ac79-e85117a4daaf")
+	)
+	(wire
+		(pts
 			(xy 148.59 100.33) (xy 148.59 107.95)
 		)
 		(stroke
@@ -4247,6 +5310,56 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 41.91) (xy 246.38 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f48549c-5dd8-40cb-b9fc-27c0e27f6ab5")
+	)
+	(wire
+		(pts
+			(xy 179.07 78.74) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffa6089-83fb-46bd-a7f6-617a6f7a4d41")
+	)
+	(wire
+		(pts
+			(xy 261.62 68.58) (xy 261.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804126d5-a9e5-438e-b4ad-6895f27f9d23")
+	)
+	(wire
+		(pts
+			(xy 121.92 175.26) (xy 121.92 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8351b546-6e58-4cae-aa4f-17d2ba2cbf39")
+	)
+	(wire
+		(pts
+			(xy 121.92 149.86) (xy 121.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c2159b-15a4-4aae-9577-53b334787d7a")
+	)
+	(wire
+		(pts
 			(xy 22.86 55.88) (xy 33.02 55.88)
 		)
 		(stroke
@@ -4254,6 +5367,26 @@
 			(type default)
 		)
 		(uuid "874873fa-9b11-4f0b-a42e-84243f106481")
+	)
+	(wire
+		(pts
+			(xy 81.28 134.62) (xy 76.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87af8a48-4199-4b6b-a8bc-94f2e7a10162")
+	)
+	(wire
+		(pts
+			(xy 67.31 149.86) (xy 69.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c28f2d-a32b-462e-a0ac-9dc91a45ac14")
 	)
 	(wire
 		(pts
@@ -4267,6 +5400,146 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 54.61) (xy 194.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cec77b7-0081-469e-8cfc-24aed9f051ee")
+	)
+	(wire
+		(pts
+			(xy 229.87 64.77) (xy 232.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3b2f69-3a64-4bdf-ba32-f441402c4560")
+	)
+	(wire
+		(pts
+			(xy 38.1 190.5) (xy 48.26 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5ae597-2561-443e-a490-134f1a0ffa2d")
+	)
+	(wire
+		(pts
+			(xy 229.87 54.61) (xy 240.03 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0c0986-c13f-4960-a7cf-35ce73f95570")
+	)
+	(wire
+		(pts
+			(xy 229.87 90.17) (xy 232.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9b870a-a463-4b88-9cd4-5f90914a94ff")
+	)
+	(wire
+		(pts
+			(xy 177.8 62.23) (xy 194.31 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907996be-5d56-47ec-b256-03aa2c8befc0")
+	)
+	(wire
+		(pts
+			(xy 121.92 144.78) (xy 144.78 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916bb8ed-f418-4372-bad1-2f304a9342d8")
+	)
+	(wire
+		(pts
+			(xy 59.69 157.48) (xy 81.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930aadd0-4fce-4821-b217-abad1bf2f8c8")
+	)
+	(wire
+		(pts
+			(xy 48.26 190.5) (xy 59.69 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939016ac-ab30-4ee2-9f98-96fec8f39a06")
+	)
+	(wire
+		(pts
+			(xy 232.41 87.63) (xy 232.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9552734c-a746-4fb7-85e6-efcf7f587ce6")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957ee0dd-e5cf-4c74-9fe4-4427d6abc900")
+	)
+	(wire
+		(pts
+			(xy 261.62 83.82) (xy 261.62 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9783ec8d-55a5-492d-ad0f-2d1facd087f9")
+	)
+	(wire
+		(pts
+			(xy 38.1 182.88) (xy 38.1 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aee860f-829c-4b1e-8bb5-7e9997a0f2e0")
+	)
+	(wire
+		(pts
+			(xy 173.99 52.07) (xy 184.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc0f9cb-642b-4c1c-9a2e-2c77b01aa104")
+	)
+	(wire
+		(pts
 			(xy 64.77 81.28) (xy 74.93 81.28)
 		)
 		(stroke
@@ -4274,6 +5547,36 @@
 			(type default)
 		)
 		(uuid "9dc19d7d-e6b1-4dc2-ba8d-1d0d4a849581")
+	)
+	(wire
+		(pts
+			(xy 69.85 149.86) (xy 74.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ead40e2-96fa-4b1c-95ce-3fff61482dea")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 191.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d84815-466c-4803-8f5c-5c34b96aff78")
+	)
+	(wire
+		(pts
+			(xy 121.92 157.48) (xy 114.3 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a468b886-5367-4d5d-8724-d277edaa96ac")
 	)
 	(wire
 		(pts
@@ -4287,6 +5590,36 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 134.62) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58b2202-250d-4bb7-9f08-84ba8583642e")
+	)
+	(wire
+		(pts
+			(xy 251.46 57.15) (xy 261.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e0df5a-b637-4acc-8339-7df078fea140")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ecffa5-6683-4db9-9d20-d5e644d6a69b")
+	)
+	(wire
+		(pts
 			(xy 21.59 67.31) (xy 33.02 67.31)
 		)
 		(stroke
@@ -4294,6 +5627,36 @@
 			(type default)
 		)
 		(uuid "a81cdca4-765b-42b9-8f98-41b412a91abd")
+	)
+	(wire
+		(pts
+			(xy 69.85 137.16) (xy 81.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2bdb0c-2e38-4c94-ae1f-5e75639bca2d")
+	)
+	(wire
+		(pts
+			(xy 250.19 50.8) (xy 259.08 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6ef546-3251-4d86-9e38-5a938d35452d")
+	)
+	(wire
+		(pts
+			(xy 276.86 50.8) (xy 276.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6ddca5-9496-43d2-bfa8-1fc03b732693")
 	)
 	(wire
 		(pts
@@ -4307,6 +5670,36 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 175.26) (xy 38.1 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfeab27-46c5-42de-9b91-ecdc7b154c69")
+	)
+	(wire
+		(pts
+			(xy 59.69 190.5) (xy 59.69 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae01bf62-65f5-49c2-b5f4-ab747e59da82")
+	)
+	(wire
+		(pts
+			(xy 69.85 180.34) (xy 74.93 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae18cf03-0847-4576-9093-a6af9cd152d9")
+	)
+	(wire
+		(pts
 			(xy 64.77 101.6) (xy 64.77 96.52)
 		)
 		(stroke
@@ -4314,6 +5707,16 @@
 			(type default)
 		)
 		(uuid "ae8a477b-3638-4a91-a5c2-6c109fa8e4ca")
+	)
+	(wire
+		(pts
+			(xy 191.77 72.39) (xy 194.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea553b4-fdb1-4eac-b9a8-82e4834a0b2f")
 	)
 	(wire
 		(pts
@@ -4327,7 +5730,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 76.2) (xy 74.93 76.2)
+			(xy 184.15 49.53) (xy 184.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6bec68-5af6-4b85-9d03-690ae11dec72")
+	)
+	(wire
+		(pts
+			(xy 40.64 76.2) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4344,6 +5757,16 @@
 			(type default)
 		)
 		(uuid "b2a1727d-46d5-4160-b594-d0af49c6b4a0")
+	)
+	(wire
+		(pts
+			(xy 121.92 144.78) (xy 121.92 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b379f9-b7e2-4c0c-a8ba-d0a124bcd85c")
 	)
 	(wire
 		(pts
@@ -4384,6 +5807,26 @@
 			(type default)
 		)
 		(uuid "b809e2c0-c00d-411b-ba1d-20277660998e")
+	)
+	(wire
+		(pts
+			(xy 81.28 152.4) (xy 77.47 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e58220-760d-40b8-9575-dffca6789740")
+	)
+	(wire
+		(pts
+			(xy 267.97 44.45) (xy 267.97 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafcfb37-a7fb-4e56-ad78-1b01ded61809")
 	)
 	(wire
 		(pts
@@ -4437,6 +5880,36 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 182.88) (xy 133.35 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c452ec1b-e88a-41f6-b902-b0cee61f3ac6")
+	)
+	(wire
+		(pts
+			(xy 167.64 69.85) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c279e3-80e6-4d4d-bad0-7e112285a3b4")
+	)
+	(wire
+		(pts
+			(xy 232.41 71.12) (xy 232.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66cb57e-e56e-4252-aa3c-40a38f9ba932")
+	)
+	(wire
+		(pts
 			(xy 63.5 58.42) (xy 63.5 59.69)
 		)
 		(stroke
@@ -4444,6 +5917,76 @@
 			(type default)
 		)
 		(uuid "c72e3061-e8fa-4f7c-96b8-9f79077b865d")
+	)
+	(wire
+		(pts
+			(xy 259.08 44.45) (xy 259.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b94f50-a88a-4917-bc01-748c53edc714")
+	)
+	(wire
+		(pts
+			(xy 83.82 175.26) (xy 121.92 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d68668-4dab-4608-b359-7b53de5e22e6")
+	)
+	(wire
+		(pts
+			(xy 121.92 129.54) (xy 121.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87cfdcb-762a-493f-87fa-7299b697d50c")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.36) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b8fabd-8d39-4fdf-bab9-ff4c267e8f64")
+	)
+	(wire
+		(pts
+			(xy 229.87 44.45) (xy 250.19 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcef45e-7ed9-4297-ba6b-df2a46858cb9")
+	)
+	(wire
+		(pts
+			(xy 133.35 177.8) (xy 133.35 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc19942c-4869-40ea-a253-14ef4652fbe1")
+	)
+	(wire
+		(pts
+			(xy 251.46 90.17) (xy 232.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc39093c-11b1-4c15-9cbf-c63876f9e36e")
 	)
 	(wire
 		(pts
@@ -4457,6 +6000,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 140.97) (xy 77.47 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc036ba-fa1c-49f2-9295-55b3a0214989")
+	)
+	(wire
+		(pts
 			(xy 110.49 95.25) (xy 113.03 95.25)
 		)
 		(stroke
@@ -4464,6 +6017,26 @@
 			(type default)
 		)
 		(uuid "ce55862f-5e07-4e81-ad04-05b98cd25fbf")
+	)
+	(wire
+		(pts
+			(xy 59.69 163.83) (xy 59.69 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffe5d3b-878c-49c2-a8fb-937b084c19ef")
+	)
+	(wire
+		(pts
+			(xy 76.2 132.08) (xy 81.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01e42b4-9b74-4b15-8283-cfae02175e57")
 	)
 	(wire
 		(pts
@@ -4487,6 +6060,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 134.62) (xy 76.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f03221-5ef6-42a0-b38d-9b44760239c5")
+	)
+	(wire
+		(pts
+			(xy 25.4 152.4) (xy 38.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d425bde1-f33b-4b84-ad66-dde8f91544c5")
+	)
+	(wire
+		(pts
 			(xy 74.93 50.8) (xy 69.85 50.8)
 		)
 		(stroke
@@ -4494,6 +6087,16 @@
 			(type default)
 		)
 		(uuid "d4f6feeb-9f10-437f-a5d6-2ef6028d36fa")
+	)
+	(wire
+		(pts
+			(xy 114.3 149.86) (xy 121.92 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d792b02d-25b0-4a67-b23a-eb82dd9cb2b2")
 	)
 	(wire
 		(pts
@@ -4517,6 +6120,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 41.91) (xy 167.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd31f16b-0fdf-444d-b091-f4b17da5f020")
+	)
+	(wire
+		(pts
 			(xy 116.84 81.28) (xy 110.49 81.28)
 		)
 		(stroke
@@ -4524,6 +6137,26 @@
 			(type default)
 		)
 		(uuid "e21cc624-6918-435f-addc-5460a3ada036")
+	)
+	(wire
+		(pts
+			(xy 229.87 44.45) (xy 229.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e233efc0-cca0-4eb6-94c0-aacc4ea19b9b")
+	)
+	(wire
+		(pts
+			(xy 83.82 171.45) (xy 83.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2603318-809d-46a0-bdc5-c3179ecfbc16")
 	)
 	(wire
 		(pts
@@ -4537,6 +6170,36 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 54.61) (xy 252.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8972998-d0e1-4bb3-a9c3-1ab09298e15c")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9474bdb-cbe7-4d2f-9132-eff4f8b93087")
+	)
+	(wire
+		(pts
+			(xy 259.08 50.8) (xy 267.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e950a8ed-2492-47fa-8609-b9ea80afcd86")
+	)
+	(wire
+		(pts
 			(xy 22.86 69.85) (xy 74.93 69.85)
 		)
 		(stroke
@@ -4547,6 +6210,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 49.53) (xy 173.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c90df7-3b94-446e-a938-764a73b6dcd7")
+	)
+	(wire
+		(pts
 			(xy 138.43 81.28) (xy 133.35 81.28)
 		)
 		(stroke
@@ -4554,6 +6227,16 @@
 			(type default)
 		)
 		(uuid "ea4df79a-3d45-4a09-89d9-8c9c8a549b8b")
+	)
+	(wire
+		(pts
+			(xy 261.62 63.5) (xy 261.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb01a7f2-fcbe-4ab5-900e-59f8360753ea")
 	)
 	(wire
 		(pts
@@ -4577,13 +6260,123 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 96.52) (xy 50.8 96.52)
+			(xy 276.86 45.72) (xy 276.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9744cd-d5fe-4a41-8abe-a1f565c4788b")
+	)
+	(wire
+		(pts
+			(xy 74.93 180.34) (xy 74.93 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb855c5-addb-4498-8658-2dcad7883268")
+	)
+	(wire
+		(pts
+			(xy 229.87 87.63) (xy 232.41 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf51e74-2785-4759-996c-922a86b6c6fb")
+	)
+	(wire
+		(pts
+			(xy 229.87 46.99) (xy 229.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16b3028-e54a-424f-90a3-de020cc513d1")
+	)
+	(wire
+		(pts
+			(xy 229.87 62.23) (xy 241.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2739757-ab53-4a2c-acad-99df64bffd75")
+	)
+	(wire
+		(pts
+			(xy 115.57 132.08) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dacb5b-de68-47ea-8ff2-25d1e7f4ec84")
+	)
+	(wire
+		(pts
+			(xy 114.3 152.4) (xy 115.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35f06bb-b17e-4ba9-88dc-a06ecaab4e2e")
+	)
+	(wire
+		(pts
+			(xy 40.64 96.52) (xy 50.8 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f38e3bf5-a7b1-41cf-a65c-3623cd33b8c9")
+	)
+	(wire
+		(pts
+			(xy 133.35 185.42) (xy 121.92 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5684027-033c-47f1-8bf6-7de6f24b2bb1")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d18ad1-187b-483b-a94f-213940cdd0f8")
+	)
+	(wire
+		(pts
+			(xy 38.1 175.26) (xy 38.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8af7f5-3a7f-4328-848b-55a38742e521")
+	)
+	(wire
+		(pts
+			(xy 38.1 132.08) (xy 76.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd46060f-b21e-4c6e-91db-504de889c8ba")
 	)
 	(wire
 		(pts
@@ -4605,6 +6398,16 @@
 		)
 		(uuid "fecfc50b-f400-4a06-bf1c-a4b41d850c0d")
 	)
+	(label "STAT"
+		(at 187.96 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03d3bfd0-750a-4250-8bac-7af94eaf89ca")
+	)
 	(label "SYS"
 		(at 151.13 40.64 0)
 		(effects
@@ -4614,6 +6417,26 @@
 			(justify left bottom)
 		)
 		(uuid "0c044253-e202-4a89-ad79-5bdbaa125dfe")
+	)
+	(label "STAT"
+		(at 74.93 163.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1791d8a8-abf6-442d-95ac-cb93d0f38821")
+	)
+	(label "SW"
+		(at 248.92 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58cbf88f-c5bc-40f1-a202-f17286ce53cc")
 	)
 	(label "REGN"
 		(at 114.3 52.07 0)
@@ -4625,6 +6448,36 @@
 		)
 		(uuid "6acb0b68-27cb-4b69-8ebb-a95afc4d4129")
 	)
+	(label "SW"
+		(at 184.15 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "847dbfe8-1e67-493c-b3c8-f821f61022fa")
+	)
+	(label "BOOST_OUT"
+		(at 270.51 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9546ff60-6720-4c29-a18c-99fe09b62fd8")
+	)
+	(label "BOOST_OUT"
+		(at 25.4 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bccbf7e-6c2c-4288-91f5-20e7a38b685a")
+	)
 	(label "REGN"
 		(at 111.76 72.39 0)
 		(effects
@@ -4635,6 +6488,16 @@
 		)
 		(uuid "b99f6931-fb07-45e0-8482-2a91a1fee605")
 	)
+	(label "BOOST_OUT"
+		(at 167.64 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c60d67e7-d418-471f-9e96-cb515c451728")
+	)
 	(label "SYS"
 		(at 26.67 55.88 0)
 		(effects
@@ -4644,6 +6507,515 @@
 			(justify left bottom)
 		)
 		(uuid "d728fb7e-ad01-427f-a31c-4db8217d36bf")
+	)
+	(label "SW_VCC"
+		(at 233.68 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb396426-41a4-494b-a816-52af13b9a8b1")
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 38.1 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00b82c13-4f0e-460e-b73b-cbcef305173d")
+		(property "Reference" "#PWR020"
+			(at 38.1 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 38.1 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51fa900f-a9e4-471a-bee9-7d7985781557")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 144.78 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0803be0d-a780-4258-90f0-10c6e725276f")
+		(property "Reference" "#PWR028"
+			(at 144.78 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V0"
+			(at 144.78 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 144.78 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc57e211-df54-4c08-97b7-7861f83f2b5a")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 248.92 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c4e7a4a-f279-4291-ae1a-9360ff8f712a")
+		(property "Reference" "C14"
+			(at 248.9136 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1µF"
+			(at 248.9136 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 248.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 248.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 248.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A105KP5NNNC"
+			(at 248.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-1076-1-ND"
+			(at 248.92 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "921563a9-3408-4cd4-b52f-cf4ae52c51e8")
+		)
+		(pin "2"
+			(uuid "1a2e45d8-f550-4911-b710-9a7ac75965ea")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 148.59 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc722fc-f85d-4a9b-9c3d-c809fc7cab99")
+		(property "Reference" "C26"
+			(at 151.13 96.5135 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10µF"
+			(at 151.13 99.0535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 148.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 148.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 148.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 148.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "GRM155R61A106ME11D"
+			(at 148.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "479ee23c-d363-4f8d-be86-df770f25574f")
+		)
+		(pin "2"
+			(uuid "a55df278-1d5d-4d23-8e03-a2d7eaf8aae3")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 250.19 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fdd28fa-b83e-43ba-8bf3-989e71ccd240")
+		(property "Reference" "C15"
+			(at 252.73 46.9835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1µF"
+			(at 252.73 49.5235 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 250.19 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 250.19 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 250.19 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A105KP5NNNC"
+			(at 250.19 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-1076-1-ND"
+			(at 250.19 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec87ec04-b8ed-4860-a13b-2d67e561d209")
+		)
+		(pin "2"
+			(uuid "eafef59c-37fb-4f26-8340-d865bd1d7492")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -4668,7 +7040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.23k"
+		(property "Value" "5.23kΩ"
 			(at 119.38 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4679,7 +7051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 116.84 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4701,7 +7073,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "5.23 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-075K23L"
+			(at 116.84 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "YAG3195CT-ND"
 			(at 116.84 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4722,6 +7127,143 @@
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "237e08c0-ca2d-4555-8b6f-fe21f1727efc")
+		(property "Reference" "C22"
+			(at 234.95 67.3162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 234.95 69.8562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 232.41 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 232.41 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 232.41 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A103KA01D"
+			(at 232.41 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "490-6296-1-ND"
+			(at 232.41 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 232.41 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 232.41 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bd486903-b580-441b-a889-11f8f6bdd185")
+		)
+		(pin "1"
+			(uuid "0c80806b-1a2e-450f-8452-78e23235990f")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4806,6 +7348,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 133.35 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27e26a78-b948-4aeb-81b7-5b4e43b212bd")
+		(property "Reference" "C13"
+			(at 135.89 179.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF"
+			(at 135.89 181.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 133.35 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 133.35 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 133.35 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31CR61A107MEA8L"
+			(at 133.35 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "490-GRM31CR61A107MEA8LCT-ND"
+			(at 133.35 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "529f01eb-e761-4359-9243-1cb9e6d3c131")
+		)
+		(pin "2"
+			(uuid "b9105188-1b59-4ad1-832b-6b3259bf08cf")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 21.59 67.31 90)
 		(unit 1)
@@ -4877,6 +7534,258 @@
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 173.99 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "375f0af6-daab-4a97-8eb8-96cfba2c4cbf")
+		(property "Reference" "C21"
+			(at 176.53 45.7262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 176.53 48.2662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 173.99 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+			(at 173.99 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 173.99 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A104KA01D"
+			(at 173.99 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "490-1318-2-ND"
+			(at 173.99 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 173.99 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 173.99 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b341a330-ae4c-4ab9-bbc0-91d92a2f563e")
+		)
+		(pin "1"
+			(uuid "22f982ec-1bef-4a74-af8d-7256013c7285")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 276.86 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aa9a04d-c5ee-4281-8279-d0600af64391")
+		(property "Reference" "C19"
+			(at 279.4 46.9835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22µF"
+			(at 279.4 49.5235 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 276.86 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 276.86 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 276.86 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A226MP8NUNE"
+			(at 276.86 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-1274-1-ND"
+			(at 276.86 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "823b909f-69ee-4389-bf84-c11b5d4abc09")
+		)
+		(pin "2"
+			(uuid "f3f138f7-e9c6-47a5-b972-acaf98c66742")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4961,8 +7870,123 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 184.15 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fb59e60-60c4-465b-b379-e18c9093a958")
+		(property "Reference" "C20"
+			(at 186.69 45.7135 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10µF"
+			(at 186.69 48.2535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 184.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 184.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 184.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 184.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "GRM155R61A106ME11D"
+			(at 184.15 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f9726c3-27cf-46ee-b189-bfe683e7b577")
+		)
+		(pin "2"
+			(uuid "40cfd3eb-9ec8-4b22-a986-c68c053ecfcf")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bmo:SIA445EDJ-T1-GE3")
-		(at 160.02 154.94 0)
+		(at 81.28 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4973,7 +7997,7 @@
 		(fields_autoplaced yes)
 		(uuid "40f99c2c-e0a6-4646-b250-e33678a946db")
 		(property "Reference" "U7"
-			(at 176.53 144.78 0)
+			(at 97.79 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4983,7 +8007,7 @@
 			)
 		)
 		(property "Value" "SIA445EDJ-T1-GE3"
-			(at 176.53 147.32 0)
+			(at 97.79 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4993,7 +8017,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
-			(at 160.02 154.94 0)
+			(at 81.28 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,7 +8029,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?63619"
-			(at 160.02 154.94 0)
+			(at 81.28 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5017,7 +8041,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 154.94 0)
+			(at 81.28 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,6 +8154,141 @@
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 242.57 54.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "468e0df6-4eb6-4f64-bb43-035200935b7b")
+		(property "Reference" "C16"
+			(at 242.5636 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 242.5636 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 242.57 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+			(at 242.57 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 242.57 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A104KA01D"
+			(at 242.57 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "490-1318-2-ND"
+			(at 242.57 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 242.57 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 242.57 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8c43275-b328-4cd1-a9ee-0a71efbb1c83")
+		)
+		(pin "1"
+			(uuid "bbda5942-2400-41b5-814f-b259331b37f2")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5355,10 +8514,246 @@
 		(pin "24"
 			(uuid "54c73df5-d5a5-4186-8100-cdbcf1eeee42")
 		)
+		(pin "25"
+			(uuid "30c87cd5-03f4-43e1-91cc-d451da4b2e20")
+		)
 		(instances
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5de80346-2759-4559-9791-a85eb3545e59")
+		(property "Reference" "#PWR021"
+			(at 59.69 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad49ea61-8655-4ffe-a38c-fad4e991e9a2")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e262a66-a4cd-4e2e-a146-810426162541")
+		(property "Reference" "TP10"
+			(at 160.782 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 158.242 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 154.94 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e419cce4-addb-4458-b2db-7c31037a9312")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 165.1 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e59435b-9492-492b-b302-4ea2aa1f3fd4")
+		(property "Reference" "#PWR019"
+			(at 165.1 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PACK+"
+			(at 165.1 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 165.1 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de376931-8dac-4fb0-aa18-778b09695902")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5443,6 +8838,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 167.64 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "661d84de-c516-406d-b5b1-1fc28e308a3e")
+		(property "Reference" "R17"
+			(at 170.18 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "69.8kΩ"
+			(at 170.18 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 167.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "69.8 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 167.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 167.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0402FT69K8"
+			(at 167.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0402FT69K8CT-ND"
+			(at 167.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "efc97a96-cf56-4e55-b1af-eb577e5c42df")
+		)
+		(pin "1"
+			(uuid "fb18cbfb-844b-41bd-963d-c0cd1b257747")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 54.61 50.8 180)
 		(unit 1)
@@ -5465,7 +8975,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µF"
 			(at 57.15 52.0635 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5476,7 +8986,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5498,7 +9008,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 54.61 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 54.61 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 54.61 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "GRM155R61A106ME11D"
 			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5519,6 +9062,198 @@
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ab0ce01-c575-4d32-ad04-892ec70171af")
+		(property "Reference" "TP4"
+			(at 53.848 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 56.388 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 59.69 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7570b37-0c2d-4d92-87b0-3fd5af49e9e9")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 167.64 67.31 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e582573-534f-4e6c-8815-de7146e64219")
+		(property "Reference" "L2"
+			(at 168.91 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5µH"
+			(at 168.91 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bmo:74439324015"
+			(at 167.64 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5 µH Shielded Molded Inductor 10.6 A 12.9mOhm Max Nonstandard"
+			(at 167.64 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 167.64 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "74439324015"
+			(at 167.64 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "732-74439324015CT-ND"
+			(at 167.64 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e0a341f9-c7f0-4bdc-b609-33091c9dc00a")
+		)
+		(pin "1"
+			(uuid "2332e877-7f2f-42e2-8311-22870e417fbb")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -5603,6 +9338,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 121.92 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77dc680e-4f42-4e53-9645-fd0311171686")
+		(property "Reference" "C12"
+			(at 124.46 179.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF"
+			(at 124.46 181.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 121.92 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
+			(at 121.92 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 121.92 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM31CR61A107MEA8L"
+			(at 121.92 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "490-GRM31CR61A107MEA8LCT-ND"
+			(at 121.92 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c976ed8-f90d-4e68-ae21-049732581300")
+		)
+		(pin "2"
+			(uuid "273b1de0-278b-483b-8eaf-7874e14c43b0")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 22.86 62.23 0)
 		(unit 1)
@@ -5636,7 +9486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 22.86 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5658,7 +9508,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 22.86 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 22.86 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0402FT10K0"
+			(at 22.86 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0402FT10K0CT-ND"
 			(at 22.86 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5685,8 +9568,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 148.59 97.79 180)
+		(lib_id "Connector:TestPoint")
+		(at 167.64 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5694,32 +9577,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a938d35-6bbd-4870-9bef-ad89bef63946")
-		(property "Reference" "C7"
-			(at 151.13 96.5135 0)
+		(uuid "7f49de8f-8d46-4827-ba72-4310c44e609b")
+		(property "Reference" "TP8"
+			(at 161.798 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 151.13 99.0535 0)
+		(property "Value" "TestPoint"
+			(at 164.338 69.85 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 97.79 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 167.64 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5730,7 +9611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 97.79 0)
+			(at 167.64 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,8 +9621,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 148.59 97.79 0)
+		(property "Description" "test point"
+			(at 167.64 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,15 +9633,432 @@
 			)
 		)
 		(pin "1"
-			(uuid "9af9e28d-3111-4062-9840-30dc9dbabfad")
-		)
-		(pin "2"
-			(uuid "483fc740-a28a-48e7-9f3e-58bbc04dc8e0")
+			(uuid "30c79f82-ad02-4136-beb4-285614f23f57")
 		)
 		(instances
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
-					(reference "C7")
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 261.62 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f8fe47c-27ae-4237-ab47-60c2e4891004")
+		(property "Reference" "R14"
+			(at 264.16 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "18.7kΩ"
+			(at 264.16 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "18.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0402FT18K7"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0402FT18K7CT-ND"
+			(at 261.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4c773c94-ee5d-42a9-9f25-c0a32637c008")
+		)
+		(pin "1"
+			(uuid "e9804420-ccfb-4e5c-9e56-6ff3ef2a1dda")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ff4b7da-ddee-4c5a-abb0-afc4d1e0b05d")
+		(property "Reference" "TP5"
+			(at 110.49 75.438 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.03 77.978 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 115.57 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51117c59-f80c-4b6c-880d-6c8fe1eee340")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 80.01 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88b3ef65-f2d4-420f-8c34-4fd1a779f110")
+		(property "Reference" "R10"
+			(at 80.01 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1MΩ"
+			(at 80.01 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 80.01 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 MOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 80.01 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 80.01 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071ML"
+			(at 80.01 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "311-1.00MLRCT-ND"
+			(at 80.01 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "448ebe15-2000-46ec-b2d4-a25928bcb926")
+		)
+		(pin "1"
+			(uuid "03ce1416-dd17-4240-9b6d-6a71465dccb6")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 167.64 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d9082c-35e2-4cb7-a0ae-6bc29bb8d28f")
+		(property "Reference" "R16"
+			(at 170.18 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220kΩ"
+			(at 170.18 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "220 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-07220KL"
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "311-220KLRCT-ND"
+			(at 167.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9f1e1d9d-27f3-4edc-928b-3e219c43a557")
+		)
+		(pin "1"
+			(uuid "e0f16b81-4733-46fe-91cb-1c5a83be8c79")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5768,7 +10066,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 151.13 46.99 180)
+		(at 251.46 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5777,31 +10075,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a22fb1c0-038c-4568-919f-f015f27ce08c")
-		(property "Reference" "C10"
-			(at 153.67 45.7135 0)
+		(uuid "9cba80d7-6d8b-4238-a6a6-5fd013801ea0")
+		(property "Reference" "C24"
+			(at 254 80.0162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 153.67 48.2535 0)
+		(property "Value" "100pF"
+			(at 254 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 46.99 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 251.46 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5812,7 +10110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 46.99 0)
+			(at 251.46 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,8 +10120,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 151.13 46.99 0)
+		(property "Description" "100 pF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 251.46 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,16 +10131,208 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "01dbc819-b6eb-469b-a1f2-adb9e4e9f110")
+		(property "Manufacturer" "YAGEO"
+			(at 251.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0402KRX7R6BB101"
+			(at 251.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "13-CC0402KRX7R6BB101CT-ND"
+			(at 251.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 251.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 251.46 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "6fd6d7c6-ada3-4a8e-b60e-93ac7098b392")
+			(uuid "a7235dc7-6bfc-419f-be58-f31d4c4d65ca")
+		)
+		(pin "1"
+			(uuid "ebabdf28-f722-461a-a110-816eeaacd612")
 		)
 		(instances
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
-					(reference "C10")
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 261.62 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f08c3c0-6e82-4e04-8940-11e84cc0a9f8")
+		(property "Reference" "C23"
+			(at 264.16 80.0162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2nF"
+			(at 264.16 82.5562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 261.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2200 pF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 261.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 261.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0402KRX7R6BB222"
+			(at 261.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "311-3792-1-ND"
+			(at 261.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 261.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 261.62 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "75892209-953e-4056-9eb0-1f79d78350ef")
+		)
+		(pin "1"
+			(uuid "04ebdcb0-b913-431e-a698-4096d1118240")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5902,8 +10392,41 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "FIXED IND 1UH 4.4A 46.5 MOHM SMD"
 			(at 143.51 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 143.51 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "IHLP2020ABER1R0M01"
+			(at 143.51 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "541-1704-1-ND"
+			(at 143.51 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5923,6 +10446,84 @@
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3878fa7-20eb-4900-a0a5-c2894b2ed84a")
+		(property "Reference" "#PWR022"
+			(at 121.92 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc4f0148-8029-4043-990a-5efb15043b87")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6008,7 +10609,7 @@
 	)
 	(symbol
 		(lib_id "Power_Management:LTC4412xS6")
-		(at 133.35 153.67 0)
+		(at 59.69 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6019,7 +10620,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa38d6f2-d6b0-4dd0-b42e-61d7644984eb")
 		(property "Reference" "U5"
-			(at 135.4933 140.97 0)
+			(at 61.8333 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6030,7 +10631,7 @@
 			)
 		)
 		(property "Value" "LTC4412xS6"
-			(at 135.4933 143.51 0)
+			(at 61.8333 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6041,7 +10642,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 149.86 162.56 0)
+			(at 76.2 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6052,7 +10653,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf"
-			(at 186.69 158.75 0)
+			(at 113.03 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,7 +10664,7 @@
 			)
 		)
 		(property "Description" "Low Loss PowerPath Controller, TSOT-23-6"
-			(at 133.35 153.67 0)
+			(at 59.69 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6102,6 +10703,121 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 59.69 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af76e65e-e5fd-4a3a-b0dd-581e92e5add6")
+		(property "Reference" "R12"
+			(at 62.23 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 62.23 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 59.69 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 59.69 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 59.69 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710RL"
+			(at 59.69 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "311-10.0LRCT-ND"
+			(at 59.69 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bce4e162-6ef4-4e8c-83bb-f21b7e92414b")
+		)
+		(pin "2"
+			(uuid "0c456be6-9553-4efe-b8ce-522fbb3cd02b")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 50.8 86.36 180)
 		(unit 1)
 		(body_style 1)
@@ -6123,7 +10839,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150Ω"
 			(at 53.34 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6134,7 +10850,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 50.8 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6156,7 +10872,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 50.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 50.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1500X"
+			(at 50.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "P150LCT-ND"
 			(at 50.8 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6184,7 +10933,7 @@
 	)
 	(symbol
 		(lib_id "bmo:TPS61088RHLR")
-		(at 208.28 64.77 0)
+		(at 212.09 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6195,7 +10944,7 @@
 		(fields_autoplaced yes)
 		(uuid "b035436c-9f1b-4c9b-9a25-67f07db535eb")
 		(property "Reference" "U4"
-			(at 208.28 34.29 0)
+			(at 212.09 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6205,7 +10954,7 @@
 			)
 		)
 		(property "Value" "TPS61088RHLR"
-			(at 208.28 36.83 0)
+			(at 212.09 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6215,7 +10964,7 @@
 			)
 		)
 		(property "Footprint" "bmo:IC_TPS61088RHLR"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6227,7 +10976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6238,7 +10987,7 @@
 			)
 		)
 		(property "Description" "10-A Fully-Integrated Synchronous Boost Converter"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6250,7 +10999,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6262,7 +11011,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6274,7 +11023,7 @@
 			)
 		)
 		(property "Package" "VQFN-20 Texas Instruments"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6286,7 +11035,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6298,7 +11047,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TPS61088RHLR/Texas+Instruments/view-part/?ref=eda"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6310,7 +11059,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6322,7 +11071,7 @@
 			)
 		)
 		(property "PARTREV" "4219071/A 05/2017"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6334,7 +11083,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS61088RHLR/Texas+Instruments/view-part/?ref=snap"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,7 +11095,7 @@
 			)
 		)
 		(property "MP" "TPS61088RHLR"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +11107,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6370,7 +11119,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 208.28 64.77 0)
+			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6478,6 +11227,313 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 241.3 66.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b180ca54-99c7-4e62-bc7f-1d606fb88b89")
+		(property "Reference" "R13"
+			(at 243.84 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "110kΩ"
+			(at 243.84 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 241.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "110 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 241.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 241.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-07110KL"
+			(at 241.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "311-110KLRCT-ND"
+			(at 241.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fcc8d438-9576-47fc-bb8f-eff28c7fa0ce")
+		)
+		(pin "1"
+			(uuid "bf23bdc5-883f-45d1-8c3c-4ff61e17742b")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b341198d-165c-4bff-9c83-14d67a9f05f4")
+		(property "Reference" "TP3"
+			(at 61.468 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 64.008 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 67.31 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a6e6a84-69fd-4fe2-8988-9451374e78a2")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 33.02 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4b81bbb-633c-4ea4-9839-cc4cdc46e99b")
+		(property "Reference" "R18"
+			(at 35.56 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 35.56 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 33.02 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 33.02 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 33.02 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0402FT10K0"
+			(at 33.02 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0402FT10K0CT-ND"
+			(at 33.02 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79e32c79-6845-4407-8d43-60288ca5e98d")
+		)
+		(pin "1"
+			(uuid "002eed64-223b-4b82-9929-159acf5c7f96")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 134.62 46.99 180)
 		(unit 1)
@@ -6511,7 +11567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 134.62 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6533,7 +11589,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.047 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 134.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 134.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A473KA01D"
+			(at 134.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "490-5412-1-ND"
 			(at 134.62 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6561,7 +11650,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 43.18 86.36 180)
+		(at 40.64 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6572,7 +11661,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba7547d6-6fb1-43c1-b842-97861a5d36dd")
 		(property "Reference" "R7"
-			(at 45.72 85.0899 0)
+			(at 43.18 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6582,8 +11671,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "226"
-			(at 45.72 87.6299 0)
+		(property "Value" "226Ω"
+			(at 43.18 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6593,8 +11682,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.18 86.36 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 40.64 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6605,7 +11694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 86.36 0)
+			(at 40.64 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6615,8 +11704,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 43.18 86.36 0)
+		(property "Description" "226 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 40.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0402FT226R"
+			(at 40.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 40.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0402FT226RCT-ND"
+			(at 40.64 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6664,7 +11786,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30.1k"
+		(property "Value" "30.1kΩ"
 			(at 119.38 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,7 +11797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6697,7 +11819,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "30.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0730K1L"
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "311-30.1KLRCT-ND"
 			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6718,6 +11873,84 @@
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c376681a-446c-4929-be03-f83c5d26885d")
+		(property "Reference" "#PWR023"
+			(at 232.41 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2523aea1-fbe9-4ab0-b1f9-92c5957528b1")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6803,6 +12036,119 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 67.31 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c45f053f-4d18-4b37-8c38-35c1b2ccadca")
+		(property "Reference" "C25"
+			(at 67.3036 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10µF"
+			(at 67.3036 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 67.31 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 67.31 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 67.31 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 67.31 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "GRM155R61A106ME11D"
+			(at 67.31 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "deae2845-4894-4af7-a1af-8d237092c170")
+		)
+		(pin "2"
+			(uuid "4a24dfdf-8de9-4973-88b1-94ee66a93696")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 132.08 55.88 180)
 		(unit 1)
 		(body_style 1)
@@ -6824,7 +12170,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7µF"
 			(at 134.62 57.1435 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6835,7 +12181,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 132.08 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6857,7 +12203,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "4.7 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 132.08 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 132.08 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 132.08 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-1482-1-ND"
 			(at 132.08 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6878,6 +12257,121 @@
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 177.8 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c816b3ad-c770-4216-ab2d-8625dcbb0b0d")
+		(property "Reference" "R15"
+			(at 180.34 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "267kΩ"
+			(at 180.34 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 177.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "267 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 177.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 177.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0402FT267K"
+			(at 177.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "RMCF0402FT267KCT-ND"
+			(at 177.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "00bcd003-65b6-46f6-ac17-4c35013744f3")
+		)
+		(pin "1"
+			(uuid "db4b3ded-e20e-4644-a3b6-84a47f8e4e3e")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6906,7 +12400,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 48.26 52.0635 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6917,7 +12411,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 45.72 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6939,7 +12433,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 45.72 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 45.72 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A105KP5NNNC"
+			(at 45.72 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-1076-1-ND"
 			(at 45.72 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6967,7 +12494,7 @@
 	)
 	(symbol
 		(lib_id "bmo:SIA445EDJ-T1-GE3")
-		(at 165.1 130.81 0)
+		(at 81.28 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6978,7 +12505,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9c9dfce-bf58-4dfe-83d3-e81cf95bba22")
 		(property "Reference" "U6"
-			(at 181.61 120.65 0)
+			(at 97.79 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6988,7 +12515,7 @@
 			)
 		)
 		(property "Value" "SIA445EDJ-T1-GE3"
-			(at 181.61 123.19 0)
+			(at 97.79 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6998,7 +12525,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
-			(at 165.1 130.81 0)
+			(at 81.28 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7010,7 +12537,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?63619"
-			(at 165.1 130.81 0)
+			(at 81.28 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7022,7 +12549,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 130.81 0)
+			(at 81.28 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7142,7 +12669,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 67.31 58.42 90)
+		(at 151.13 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7151,29 +12678,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ce4134ea-8831-4bdb-babc-2e780c24c38d")
-		(property "Reference" "C5"
-			(at 67.3163 52.07 90)
+		(uuid "cb763266-e1dd-4309-8b65-d97985ebef0b")
+		(property "Reference" "C27"
+			(at 153.67 45.7135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 67.3163 54.61 90)
+		(property "Value" "10µF"
+			(at 153.67 48.2535 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 58.42 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 151.13 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +12713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 58.42 0)
+			(at 151.13 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7194,8 +12723,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 67.31 58.42 0)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 151.13 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 151.13 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 151.13 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "GRM155R61A106ME11D"
+			(at 151.13 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7206,15 +12768,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c20998c-1ffa-4173-a209-78e836910abe")
+			(uuid "df092564-2383-4842-8cb3-97a6fdbb989e")
 		)
 		(pin "2"
-			(uuid "67078526-4e7b-4754-98ad-7762f0363107")
+			(uuid "6e1b967e-bce9-40dd-8b15-65a7946f4df8")
 		)
 		(instances
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
-					(reference "C5")
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb9dcee3-1ec6-4675-96f2-cec97745026a")
+		(property "Reference" "#PWR030"
+			(at 167.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "516e0371-dddb-4967-837c-c6f88ecb2d2d")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7377,8 +13017,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 33.02 62.23 0)
+		(lib_id "Device:C_Small")
+		(at 267.97 48.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7387,31 +13027,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e23691a1-2ab4-4f21-886d-02c8fe21da72")
-		(property "Reference" "R8"
-			(at 35.56 60.9599 0)
+		(uuid "dd411bc2-2937-4c28-98e5-37d15ee12be8")
+		(property "Reference" "C18"
+			(at 270.51 46.9835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
-			(at 35.56 63.4999 0)
+		(property "Value" "22µF"
+			(at 270.51 49.5235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 33.02 62.23 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 267.97 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,7 +13062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 62.23 0)
+			(at 267.97 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7432,8 +13072,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 33.02 62.23 0)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 267.97 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7443,16 +13083,49 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "19810c01-2ded-4d41-9667-e0247c7aa422")
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 267.97 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A226MP8NUNE"
+			(at 267.97 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-1274-1-ND"
+			(at 267.97 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "f97d376b-df68-4dad-8d17-e11437f8ff71")
+			(uuid "ec17d368-be0d-4cd6-b248-2abe1a06d850")
+		)
+		(pin "2"
+			(uuid "06db99a0-069e-4722-8531-e810f82c4bc7")
 		)
 		(instances
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
-					(reference "R8")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7537,6 +13210,200 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 259.08 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6753932-d85d-4fdf-b556-1f6d9f0dda7d")
+		(property "Reference" "C17"
+			(at 261.62 46.9835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22µF"
+			(at 261.62 49.5235 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A226MP8NUNE"
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "1276-1274-1-ND"
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "067281a3-dad0-40a2-91bd-d71111d18db8")
+		)
+		(pin "2"
+			(uuid "cf1d7795-98b9-4033-b855-3434c8c2375c")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8da4551-88d7-4f05-b468-577856fe55a0")
+		(property "Reference" "#PWR024"
+			(at 260.35 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d64afd4-1b60-4956-b45f-314b6dbf098e")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 21.59 69.85 90)
 		(unit 1)
@@ -7614,6 +13481,240 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 184.15 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efde9ea6-2d6e-44ff-95f8-cac8683d9549")
+		(property "Reference" "#PWR026"
+			(at 184.15 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "656e1559-7a4f-4749-bc30-80e2910f5165")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f49e0758-4fb8-4241-b907-19ac46807cbd")
+		(property "Reference" "#PWR027"
+			(at 241.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dae2d5ed-3579-4d36-82cf-f5a3994ddde6")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89dcc4f-161f-41f7-9937-9cb674282eb9")
+		(property "Reference" "#PWR025"
+			(at 276.86 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b5cb9a8-1d73-4af6-9176-af4c5c0a41fe")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_NTC")
 		(at 129.54 81.28 90)
 		(unit 1)
@@ -7678,6 +13779,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Semitec USA Corp"
+			(at 129.54 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "103AT-2"
+			(at 129.54 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "4316-103AT-2-ND"
+			(at 129.54 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "50ae1974-6e73-4f75-a33e-072f3594a1df")
 		)
@@ -7688,6 +13822,236 @@
 			(project "bmo"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 69.85 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd2563db-8c5c-448b-8987-82a1ffa2b08b")
+		(property "Reference" "R11"
+			(at 72.39 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 72.39 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710RL"
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "311-10.0LRCT-ND"
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "719d2fb5-b52e-4a9c-a500-075c71b9cd58")
+		)
+		(pin "2"
+			(uuid "5d1a1872-1e49-4bab-8d44-75dc1a8b4367")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 38.1 180.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe80470b-242f-4aa9-9805-51a164712c91")
+		(property "Reference" "C11"
+			(at 40.64 179.0635 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10µF"
+			(at 40.64 181.6035 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "GRM155R61A106ME11D"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60b5bab2-f02b-48d9-9325-7468b44ddc5f")
+		)
+		(pin "2"
+			(uuid "ab7e31ce-87ea-4f06-b807-b7fcb5356a34")
+		)
+		(instances
+			(project "bmo"
+				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
+					(reference "C11")
 					(unit 1)
 				)
 			)
