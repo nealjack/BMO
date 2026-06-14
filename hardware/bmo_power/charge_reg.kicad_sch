@@ -1097,6 +1097,933 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SIA445EDJ-T1-GE3_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 16.51 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SIA445EDJ-T1-GE3"
+				(at 15.24 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?63619"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SIA445EDJ-T1-GE3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "POWERPAK_SC70-6L_SINGLE_VIS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SIA445EDJ-T1-GE3_1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 25.4 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 1.27) (xy 8.89 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 15.875 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.065 -3.4925) (xy 11.7475 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.7 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -3.556) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -4.7625) (xy 12.7 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -6.35) (xy 13.335 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -3.4925) (xy 12.065 -3.4925)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -3.4925) (xy 13.6525 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -4.7625) (xy 12.065 -4.7625) (xy 12.7 -3.4925)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 -6.985) (xy 13.335 -5.715) (xy 14.605 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -5.715) (xy 14.9225 -5.3975)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -6.985) (xy 14.2875 -7.3025)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -6.985) (xy 14.605 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 -5.08) (xy 15.875 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -0.635) (xy 18.415 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -1.27) (xy 16.51 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -3.175) (xy 16.51 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -4.445) (xy 18.415 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -5.08) (xy 16.51 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -2.54) (xy 16.51 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -3.175) (xy 18.415 -2.54) (xy 17.145 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 0) (xy 18.415 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 0) (xy 19.685 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 18.415 -4.445)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 -5.08) (xy 18.415 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 -5.08) (xy 19.685 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 1.27) (xy 19.05 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 19.05 1.27)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 19.05 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -1.905) (xy 20.32 -1.905) (xy 19.685 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -3.175) (xy 20.32 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -5.08) (xy 19.05 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 19.05 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 19.05 -6.35)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.685 -1.905) (xy 19.685 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.685 -5.08) (xy 19.685 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 1.27) (xy 8.89 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 22.86 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 -2.54) (xy 22.86 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.8125 0) (xy 22.86 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.8125 -2.54) (xy 22.86 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 23.8252 0)
+					(mid 24.13 0.3035)
+					(end 24.4348 0)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 23.8252 -2.54)
+					(mid 24.13 -2.2365)
+					(end 24.4348 -2.54)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 -5.08) (xy 25.4 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 24.13 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 -6.35) (xy 14.605 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 -6.35) (xy 24.13 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.4475 0) (xy 25.4 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.4475 -2.54) (xy 25.4 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 2.54) (xy 24.13 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -7.62) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 33.02 0 180)
+					(length 7.62)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 33.02 -2.54 180)
+					(length 7.62)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 33.02 -5.08 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 33.02 2.54 180)
+					(length 7.62)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bmo:BQ25606RGET"
 			(pin_names
 				(offset 1.016)
@@ -2523,7 +3450,43 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 33.02 0 180)
+					(length 7.62)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 33.02 -2.54 180)
+					(length 7.62)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2560,42 +3523,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 33.02 -2.54 180)
-					(length 7.62)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 33.02 0 180)
-					(length 7.62)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6588,7 +7515,7 @@
 			(uuid "51fa900f-a9e4-471a-bee9-7d7985781557")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR020")
 					(unit 1)
@@ -6666,7 +7593,7 @@
 			(uuid "cc57e211-df54-4c08-97b7-7861f83f2b5a")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR028")
 					(unit 1)
@@ -6728,7 +7655,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 248.92 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6779,7 +7706,7 @@
 			(uuid "1a2e45d8-f550-4911-b710-9a7ac75965ea")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C14")
 					(unit 1)
@@ -6843,7 +7770,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 148.59 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6894,7 +7821,7 @@
 			(uuid "a55df278-1d5d-4d23-8e03-a2d7eaf8aae3")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C26")
 					(unit 1)
@@ -6958,7 +7885,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 250.19 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7009,7 +7936,7 @@
 			(uuid "eafef59c-37fb-4f26-8340-d865bd1d7492")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C15")
 					(unit 1)
@@ -7073,7 +8000,7 @@
 				)
 			)
 		)
-		(property "Description" "5.23 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 116.84 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7124,7 +8051,7 @@
 			(uuid "83a932ff-e2de-44e4-a1cf-dc84740b094c")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R4")
 					(unit 1)
@@ -7188,7 +8115,7 @@
 				)
 			)
 		)
-		(property "Description" "10000 pF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 232.41 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7261,7 +8188,7 @@
 			(uuid "0c80806b-1a2e-450f-8452-78e23235990f")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C22")
 					(unit 1)
@@ -7339,7 +8266,7 @@
 			(uuid "5e210abe-048c-412d-b8f1-c6d80ad1a423")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR015")
 					(unit 1)
@@ -7403,7 +8330,7 @@
 				)
 			)
 		)
-		(property "Description" "100 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 133.35 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7454,7 +8381,7 @@
 			(uuid "b9105188-1b59-4ad1-832b-6b3259bf08cf")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C13")
 					(unit 1)
@@ -7531,7 +8458,7 @@
 			(uuid "32aeb9a6-0f60-4dc5-8490-8d8d77735cf7")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TP1")
 					(unit 1)
@@ -7595,7 +8522,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 173.99 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7668,7 +8595,7 @@
 			(uuid "22f982ec-1bef-4a74-af8d-7256013c7285")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C21")
 					(unit 1)
@@ -7732,7 +8659,7 @@
 				)
 			)
 		)
-		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 276.86 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7783,7 +8710,7 @@
 			(uuid "f3f138f7-e9c6-47a5-b972-acaf98c66742")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C19")
 					(unit 1)
@@ -7861,7 +8788,7 @@
 			(uuid "a0808db3-456e-460d-9483-31d7cfc96ea5")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR012")
 					(unit 1)
@@ -7925,7 +8852,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 184.15 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7976,7 +8903,7 @@
 			(uuid "40cfd3eb-9ec8-4b22-a986-c68c053ecfcf")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C20")
 					(unit 1)
@@ -8051,7 +8978,7 @@
 				)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "8ac8dbff-765b-4b44-9a14-7a2fe5dafe35")
 		)
 		(pin "1"
@@ -8060,10 +8987,10 @@
 		(pin "3"
 			(uuid "e95a4c19-e322-4c71-8a10-414d044f2194")
 		)
-		(pin "6"
+		(pin "1"
 			(uuid "8bf3c332-c334-4140-b9fe-36444ce458f9")
 		)
-		(pin "5"
+		(pin "1"
 			(uuid "0eb0d39d-4043-48ff-8f6c-d5beb8344c9f")
 		)
 		(pin "7"
@@ -8073,7 +9000,7 @@
 			(uuid "0c04d87a-1ef9-4893-bbd5-d6d5d32c848d")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "U7")
 					(unit 1)
@@ -8151,7 +9078,7 @@
 			(uuid "c8a0f851-9164-4ff6-addd-ab5d178b6d9f")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR016")
 					(unit 1)
@@ -8213,7 +9140,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 242.57 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8286,7 +9213,7 @@
 			(uuid "bbda5942-2400-41b5-814f-b259331b37f2")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C16")
 					(unit 1)
@@ -8518,7 +9445,7 @@
 			(uuid "30c87cd5-03f4-43e1-91cc-d451da4b2e20")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "U1")
 					(unit 1)
@@ -8596,7 +9523,7 @@
 			(uuid "ad49ea61-8655-4ffe-a38c-fad4e991e9a2")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR021")
 					(unit 1)
@@ -8673,7 +9600,7 @@
 			(uuid "e419cce4-addb-4458-b2db-7c31037a9312")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TP10")
 					(unit 1)
@@ -8751,7 +9678,7 @@
 			(uuid "de376931-8dac-4fb0-aa18-778b09695902")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR019")
 					(unit 1)
@@ -8829,7 +9756,7 @@
 			(uuid "95733d69-f86a-4722-8296-b0dde81b0852")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR017")
 					(unit 1)
@@ -8893,7 +9820,7 @@
 				)
 			)
 		)
-		(property "Description" "69.8 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 167.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8944,7 +9871,7 @@
 			(uuid "fb18cbfb-844b-41bd-963d-c0cd1b257747")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R17")
 					(unit 1)
@@ -9008,7 +9935,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 54.61 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9059,7 +9986,7 @@
 			(uuid "fc6de322-650f-46c5-83e2-7e88424bf45c")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C8")
 					(unit 1)
@@ -9136,7 +10063,7 @@
 			(uuid "f7570b37-0c2d-4d92-87b0-3fd5af49e9e9")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TP4")
 					(unit 1)
@@ -9200,7 +10127,7 @@
 				)
 			)
 		)
-		(property "Description" "1.5 µH Shielded Molded Inductor 10.6 A 12.9mOhm Max Nonstandard"
+		(property "Description" "Inductor, small symbol"
 			(at 167.64 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9251,7 +10178,7 @@
 			(uuid "2332e877-7f2f-42e2-8311-22870e417fbb")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "L2")
 					(unit 1)
@@ -9329,7 +10256,7 @@
 			(uuid "c756ab46-e52b-4850-a9f6-8c55d12f8217")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR06")
 					(unit 1)
@@ -9393,7 +10320,7 @@
 				)
 			)
 		)
-		(property "Description" "100 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 121.92 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9444,7 +10371,7 @@
 			(uuid "273b1de0-278b-483b-8eaf-7874e14c43b0")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C12")
 					(unit 1)
@@ -9508,7 +10435,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 22.86 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9559,7 +10486,7 @@
 			(uuid "e28b5788-331c-470b-885a-fe35521acf6b")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R9")
 					(unit 1)
@@ -9636,7 +10563,7 @@
 			(uuid "30c79f82-ad02-4136-beb4-285614f23f57")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TP8")
 					(unit 1)
@@ -9700,7 +10627,7 @@
 				)
 			)
 		)
-		(property "Description" "18.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 261.62 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9751,7 +10678,7 @@
 			(uuid "e9804420-ccfb-4e5c-9e56-6ff3ef2a1dda")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R14")
 					(unit 1)
@@ -9828,7 +10755,7 @@
 			(uuid "51117c59-f80c-4b6c-880d-6c8fe1eee340")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TP5")
 					(unit 1)
@@ -9890,7 +10817,7 @@
 				)
 			)
 		)
-		(property "Description" "1 MOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 80.01 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9941,7 +10868,7 @@
 			(uuid "03ce1416-dd17-4240-9b6d-6a71465dccb6")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R10")
 					(unit 1)
@@ -10005,7 +10932,7 @@
 				)
 			)
 		)
-		(property "Description" "220 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10056,7 +10983,7 @@
 			(uuid "e0f16b81-4733-46fe-91cb-1c5a83be8c79")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R16")
 					(unit 1)
@@ -10120,7 +11047,7 @@
 				)
 			)
 		)
-		(property "Description" "100 pF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 251.46 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10193,7 +11120,7 @@
 			(uuid "ebabdf28-f722-461a-a110-816eeaacd612")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C24")
 					(unit 1)
@@ -10257,7 +11184,7 @@
 				)
 			)
 		)
-		(property "Description" "2200 pF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 261.62 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10330,7 +11257,7 @@
 			(uuid "04ebdcb0-b913-431e-a698-4096d1118240")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C23")
 					(unit 1)
@@ -10392,7 +11319,7 @@
 				)
 			)
 		)
-		(property "Description" "FIXED IND 1UH 4.4A 46.5 MOHM SMD"
+		(property "Description" "Inductor, small symbol"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10443,7 +11370,7 @@
 			(uuid "8d3c36cc-ba72-4387-a92d-85a1c05ece46")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "L1")
 					(unit 1)
@@ -10521,7 +11448,7 @@
 			(uuid "bc4f0148-8029-4043-990a-5efb15043b87")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR022")
 					(unit 1)
@@ -10599,7 +11526,7 @@
 			(uuid "1040452f-705a-4a63-aa0a-60365c0bbadb")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR018")
 					(unit 1)
@@ -10693,7 +11620,7 @@
 			(uuid "8a21e9ce-2d71-4d9b-a016-c9e23bbf9072")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "U5")
 					(unit 1)
@@ -10808,7 +11735,7 @@
 			(uuid "0c456be6-9553-4efe-b8ce-522fbb3cd02b")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R12")
 					(unit 1)
@@ -10872,7 +11799,7 @@
 				)
 			)
 		)
-		(property "Description" "150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 50.8 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10923,7 +11850,7 @@
 			(uuid "d7869775-b05e-4b32-b712-562d3fc74a93")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R6")
 					(unit 1)
@@ -11218,7 +12145,7 @@
 			(uuid "4cb32504-3940-4e04-85d0-8bb7457cdb7a")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "U4")
 					(unit 1)
@@ -11282,7 +12209,7 @@
 				)
 			)
 		)
-		(property "Description" "110 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 241.3 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11333,7 +12260,7 @@
 			(uuid "bf23bdc5-883f-45d1-8c3c-4ff61e17742b")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R13")
 					(unit 1)
@@ -11410,7 +12337,7 @@
 			(uuid "3a6e6a84-69fd-4fe2-8988-9451374e78a2")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TP3")
 					(unit 1)
@@ -11474,7 +12401,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 33.02 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11525,7 +12452,7 @@
 			(uuid "002eed64-223b-4b82-9929-159acf5c7f96")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R18")
 					(unit 1)
@@ -11589,7 +12516,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 134.62 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11640,7 +12567,7 @@
 			(uuid "86db9aaa-72b0-423c-8ef4-0b4b9811f4d7")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C1")
 					(unit 1)
@@ -11704,7 +12631,7 @@
 				)
 			)
 		)
-		(property "Description" "226 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 40.64 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11755,7 +12682,7 @@
 			(uuid "ca9942fa-ed7a-4bca-9ca2-8bbaa0a2f1f5")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R7")
 					(unit 1)
@@ -11819,7 +12746,7 @@
 				)
 			)
 		)
-		(property "Description" "30.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11870,7 +12797,7 @@
 			(uuid "4c286c87-f33a-4303-b0fd-31d4ae9b75fa")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R5")
 					(unit 1)
@@ -11948,7 +12875,7 @@
 			(uuid "2523aea1-fbe9-4ab0-b1f9-92c5957528b1")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR023")
 					(unit 1)
@@ -12026,7 +12953,7 @@
 			(uuid "0c95caa8-2c0d-45e5-957e-fef1b4b830a6")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR05")
 					(unit 1)
@@ -12088,7 +13015,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 67.31 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12139,7 +13066,7 @@
 			(uuid "4a24dfdf-8de9-4973-88b1-94ee66a93696")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C25")
 					(unit 1)
@@ -12203,7 +13130,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 132.08 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12254,7 +13181,7 @@
 			(uuid "a9535f5e-147f-4f4c-82f3-38035269adc4")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C6")
 					(unit 1)
@@ -12318,7 +13245,7 @@
 				)
 			)
 		)
-		(property "Description" "267 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 177.8 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12369,7 +13296,7 @@
 			(uuid "db4b3ded-e20e-4644-a3b6-84a47f8e4e3e")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R15")
 					(unit 1)
@@ -12433,7 +13360,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 45.72 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12484,7 +13411,7 @@
 			(uuid "106f0e50-cc07-4778-85dd-2ad7e20f76ae")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C9")
 					(unit 1)
@@ -12493,6 +13420,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SIA445EDJ-T1-GE3_1")
 		(lib_id "bmo:SIA445EDJ-T1-GE3")
 		(at 81.28 132.08 0)
 		(unit 1)
@@ -12559,7 +13487,7 @@
 				)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "8b138345-b62a-4e87-a06b-fe9329481202")
 		)
 		(pin "1"
@@ -12568,10 +13496,10 @@
 		(pin "3"
 			(uuid "e70a4c3a-f8ab-4cbf-8609-efa2b3b6d0ff")
 		)
-		(pin "6"
+		(pin "1"
 			(uuid "8e0ebfe9-071b-4505-9fa5-9ccf43f0a18a")
 		)
-		(pin "5"
+		(pin "1"
 			(uuid "3145fedb-4301-44ef-9629-cc86bb2cd6c4")
 		)
 		(pin "7"
@@ -12581,7 +13509,7 @@
 			(uuid "68d65f08-c91d-49e2-8fc3-ed1a117a868b")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "U6")
 					(unit 1)
@@ -12659,7 +13587,7 @@
 			(uuid "171aab81-d9b9-40aa-9379-f2c287fcdc9f")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR010")
 					(unit 1)
@@ -12723,7 +13651,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 151.13 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -12774,7 +13702,7 @@
 			(uuid "6e1b967e-bce9-40dd-8b15-65a7946f4df8")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C27")
 					(unit 1)
@@ -12852,7 +13780,7 @@
 			(uuid "516e0371-dddb-4967-837c-c6f88ecb2d2d")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR030")
 					(unit 1)
@@ -12930,7 +13858,7 @@
 			(uuid "3b067e2a-d7f9-49b2-b0eb-be617c2364b8")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR011")
 					(unit 1)
@@ -13008,7 +13936,7 @@
 			(uuid "4b13bb1d-274d-44ba-ba3d-776ad947d546")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR014")
 					(unit 1)
@@ -13072,7 +14000,7 @@
 				)
 			)
 		)
-		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 267.97 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13123,7 +14051,7 @@
 			(uuid "06db99a0-069e-4722-8531-e810f82c4bc7")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C18")
 					(unit 1)
@@ -13201,7 +14129,7 @@
 			(uuid "f3717c57-928b-4f9b-893f-6805ab91104e")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR013")
 					(unit 1)
@@ -13265,7 +14193,7 @@
 				)
 			)
 		)
-		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 259.08 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13316,7 +14244,7 @@
 			(uuid "cf1d7795-98b9-4033-b855-3434c8c2375c")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C17")
 					(unit 1)
@@ -13395,7 +14323,7 @@
 			(uuid "3d64afd4-1b60-4956-b45f-314b6dbf098e")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR024")
 					(unit 1)
@@ -13472,7 +14400,7 @@
 			(uuid "b824acd7-dbb2-41de-9579-ca4cc3e394c2")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TP2")
 					(unit 1)
@@ -13550,7 +14478,7 @@
 			(uuid "656e1559-7a4f-4749-bc30-80e2910f5165")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR026")
 					(unit 1)
@@ -13628,7 +14556,7 @@
 			(uuid "dae2d5ed-3579-4d36-82cf-f5a3994ddde6")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR027")
 					(unit 1)
@@ -13706,7 +14634,7 @@
 			(uuid "7b5cb9a8-1d73-4af6-9176-af4c5c0a41fe")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "#PWR025")
 					(unit 1)
@@ -13819,7 +14747,7 @@
 			(uuid "20dc4e40-f629-4987-b260-50460384dec1")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "TH1")
 					(unit 1)
@@ -13934,7 +14862,7 @@
 			(uuid "5d1a1872-1e49-4bab-8d44-75dc1a8b4367")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "R11")
 					(unit 1)
@@ -13998,7 +14926,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 38.1 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -14049,7 +14977,7 @@
 			(uuid "ab7e31ce-87ea-4f06-b807-b7fcb5356a34")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/eaf1b6dc-d642-4333-b5f7-d7468428f90f"
 					(reference "C11")
 					(unit 1)

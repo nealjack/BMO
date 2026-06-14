@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "bmo") (type "KiCad") (uri "${KIPRJMOD}/bmo.kicad_sym") (options "") (descr ""))
+	(lib (name "bmo") (type "KiCad") (uri "${KIPRJMOD}/bmo_power.kicad_sym") (options "") (descr ""))
 )

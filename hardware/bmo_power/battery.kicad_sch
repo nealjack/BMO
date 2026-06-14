@@ -3228,7 +3228,7 @@
 			(uuid "3b7cf080-1c89-4cec-8773-78077196ba02")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "U3")
 					(unit 1)
@@ -3307,7 +3307,7 @@
 			(uuid "4151aa2d-7a9f-4cf5-bd38-c9d06c6575cb")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "#PWR01")
 					(unit 1)
@@ -3385,7 +3385,7 @@
 			(uuid "a7625903-29d2-4dc7-afaa-04976ccb994c")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "#PWR03")
 					(unit 1)
@@ -3449,7 +3449,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 120.65 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3522,7 +3522,7 @@
 			(uuid "814f4573-f6e6-4206-be06-6a839d5b628b")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "C3")
 					(unit 1)
@@ -3748,7 +3748,7 @@
 			(uuid "4199fd10-fbce-4871-afe6-87d79236841a")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "U2")
 					(unit 1)
@@ -3812,7 +3812,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 209.55 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3885,7 +3885,7 @@
 			(uuid "26e495b4-2014-4b99-a9bf-295cb0f58c3c")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "C2")
 					(unit 1)
@@ -3963,7 +3963,7 @@
 			(uuid "b6f3339b-1d96-4d19-a7fc-d14b0c72beb5")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "#PWR09")
 					(unit 1)
@@ -4042,7 +4042,7 @@
 			(uuid "15783751-7bb1-4d16-9f6f-a430c7f08765")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "#PWR02")
 					(unit 1)
@@ -4106,7 +4106,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 0.002 OHM 1% 3W 2512"
+		(property "Description" "Resistor, small US symbol"
 			(at 63.5 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4168,7 +4168,7 @@
 			(uuid "9061b729-0f6a-42a6-aaf8-069275353422")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "R3")
 					(unit 1)
@@ -4230,7 +4230,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
+		(property "Description" "Resistor, small US symbol"
 			(at 163.83 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4292,7 +4292,7 @@
 			(uuid "228d1a88-fc10-4cfb-9e7c-996173db6610")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "R2")
 					(unit 1)
@@ -4370,7 +4370,7 @@
 			(uuid "55d74b56-1ae6-4650-b1eb-c3e57f326cf5")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "#PWR08")
 					(unit 1)
@@ -4448,7 +4448,7 @@
 			(uuid "2a209eb7-c53b-47ad-94d3-298ede1eb13b")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "#PWR07")
 					(unit 1)
@@ -4512,7 +4512,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.47UF 6.3V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4585,7 +4585,7 @@
 			(uuid "08c83493-1fa7-4af9-8ab0-da6b138d7074")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "C4")
 					(unit 1)
@@ -4663,7 +4663,7 @@
 			(uuid "08dff65a-7049-4098-89b5-13b6ef948a22")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "#PWR04")
 					(unit 1)
@@ -4727,7 +4727,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 330 OHM 5% 1/16W 0402"
+		(property "Description" "Resistor, small US symbol"
 			(at 209.55 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4778,7 +4778,7 @@
 			(uuid "ed800663-29b0-495d-867a-77130d0b3255")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "R1")
 					(unit 1)
@@ -4925,7 +4925,7 @@
 			(uuid "619ad883-d4ed-4541-a70d-4ec8eaea0cdc")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "BT1")
 					(unit 1)
@@ -5157,7 +5157,7 @@
 			(uuid "cef26554-0c05-4861-a822-ad4ec5ce7d1b")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "Q2")
 					(unit 1)
@@ -5389,7 +5389,7 @@
 			(uuid "f4842628-afba-4c29-b531-50d527f0705f")
 		)
 		(instances
-			(project "bmo"
+			(project "bmo_power"
 				(path "/a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed/85b2d98d-13b1-41ec-93aa-daec3656f713"
 					(reference "Q1")
 					(unit 1)

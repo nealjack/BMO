@@ -193,6 +193,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/aa38d6f2-d6b0-4dd0-b42e-61d7644984eb")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "2" "6" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -549,7 +555,13 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e000f9d3-1eaf-4074-b208-6985d28fc78e")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -633,7 +645,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -699,6 +711,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/c537f808-d12f-439f-a06f-49f05aca8bae")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -824,7 +842,7 @@
 				)
 			)
 		)
-		(property "Description" "0.047 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -890,6 +908,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/b6c0eb96-dd8b-4410-9405-966a438a1097")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1015,7 +1039,7 @@
 				)
 			)
 		)
-		(property "Description" "226 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1081,6 +1105,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/ba7547d6-6fb1-43c1-b842-97861a5d36dd")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1206,7 +1236,7 @@
 				)
 			)
 		)
-		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1272,6 +1302,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/3aa9a04d-c5ee-4281-8279-d0600af64391")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1397,7 +1433,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1462,7 +1498,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/5d572d96-d4b0-4e83-a7bf-6d5692e16bd9")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1588,7 +1630,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1653,7 +1695,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/20854a2b-f983-4656-99ee-fa3707cf6a73")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1779,7 +1827,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1844,7 +1892,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/faa6aa7c-dfea-4a4e-a6b6-d06ca506005e")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1970,7 +2024,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2062,6 +2116,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/43e828d5-6529-44d4-a857-ff652ca15475")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2206,6 +2266,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/2db93222-7696-43cd-8209-6fa896c7948b")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 1.2)
@@ -2348,7 +2414,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2414,6 +2480,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/b4b81bbb-633c-4ea4-9839-cc4cdc46e99b")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2539,7 +2611,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2605,6 +2677,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/6a57b17c-8b95-4dcb-80aa-db1a17224add")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2796,6 +2874,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/af76e65e-e5fd-4a3a-b0dd-581e92e5add6")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2921,7 +3005,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 0.002 OHM 1% 3W 2512"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3000,6 +3084,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/90171c3e-1356-47c9-a05d-8ea051068deb")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3125,7 +3215,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.47UF 6.3V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3217,6 +3307,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/b752eddb-e0bb-4e7c-a549-e80ebeab605e")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3342,7 +3438,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3408,6 +3504,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/c45f053f-4d18-4b37-8c38-35c1b2ccadca")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3552,6 +3654,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/7ff4b7da-ddee-4c5a-abb0-afc4d1e0b05d")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 1.2)
@@ -3694,7 +3802,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3760,6 +3868,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/c9144e9e-5d12-4091-86cd-7335dfc175bf")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3885,7 +3999,7 @@
 				)
 			)
 		)
-		(property "Description" "2200 pF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3977,6 +4091,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/9f08c3c0-6e82-4e04-8940-11e84cc0a9f8")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4102,7 +4222,7 @@
 				)
 			)
 		)
-		(property "Description" "FIXED IND 1UH 4.4A 46.5 MOHM SMD"
+		(property "Description" "Inductor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4168,6 +4288,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/a2827a5d-c64a-453e-b110-b7364336cea0")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4584,6 +4710,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/02c6df11-d00d-440f-b3a4-edac60826ced")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "12" "14" "13" "7" "10" "9" "11" "6" "1" "15" "8")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4924,7 +5056,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4989,7 +5121,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/11278a50-3582-4f59-a9c1-9d4e8527b652")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5115,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Description" "100 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5181,6 +5319,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/77dc680e-4f42-4e53-9645-fd0311171686")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5306,7 +5450,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5372,6 +5516,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/fe80470b-242f-4aa9-9805-51a164712c91")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5524,7 +5674,13 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/12727b63-c7ad-420d-a7ba-a3e8c1c04123")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -5608,7 +5764,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5674,6 +5830,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/cb763266-e1dd-4309-8b65-d97985ebef0b")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5954,6 +6116,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/26af9ef5-c8d6-4ec0-b15c-cc0bf7d5316b")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "6" "2" "3" "5" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6196,7 +6364,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6262,6 +6430,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/0fdd28fa-b83e-43ba-8bf3-989e71ccd240")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6503,7 +6677,13 @@
 		)
 		(path "/0672f541-79f1-465b-80d3-b00d37b29c0d")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "6" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6830,7 +7010,7 @@
 				)
 			)
 		)
-		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6896,6 +7076,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/e6753932-d85d-4fdf-b556-1f6d9f0dda7d")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7021,7 +7207,7 @@
 				)
 			)
 		)
-		(property "Description" "110 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7087,6 +7273,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/b180ca54-99c7-4e62-bc7f-1d606fb88b89")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7212,7 +7404,7 @@
 				)
 			)
 		)
-		(property "Description" "69.8 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7278,6 +7470,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/661d84de-c516-406d-b5b1-1fc28e308a3e")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7403,7 +7601,7 @@
 				)
 			)
 		)
-		(property "Description" "30.1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7469,6 +7667,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/bd580ce5-477a-490d-b280-844a473cf9c5")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7596,7 +7800,7 @@
 				)
 			)
 		)
-		(property "Description" "1.5 µH Shielded Molded Inductor 10.6 A 12.9mOhm Max Nonstandard"
+		(property "Description" "Inductor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7652,6 +7856,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/6e582573-534f-4e6c-8815-de7146e64219")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7800,6 +8010,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/40f99c2c-e0a6-4646-b250-e33678a946db")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "7" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8001,16 +8217,6 @@
 			(uuid "ff57c19c-6294-4fcc-a700-d4fb3bef2cdf")
 		)
 		(pad "4" smd roundrect
-			(at 0.04 0.65 180)
-			(size 0.87 0.235)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "5V0")
-			(pinfunction "4_4")
-			(pintype "unspecified")
-			(uuid "355e92ae-bf53-48b9-9058-953574b80735")
-		)
-		(pad "4" smd roundrect
 			(at 0.925 0.65 180)
 			(size 0.35 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
@@ -8019,6 +8225,16 @@
 			(pinfunction "4_4")
 			(pintype "unspecified")
 			(uuid "59b648d9-1314-430e-a141-d8c14bfedf98")
+		)
+		(pad "7" smd roundrect
+			(at 0.04 0.65 180)
+			(size 0.87 0.235)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "5V0")
+			(pinfunction "7_7")
+			(pintype "unspecified")
+			(uuid "355e92ae-bf53-48b9-9058-953574b80735")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Vishay_PowerPAK_SC70-6L_Single.step"
@@ -8090,7 +8306,13 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/fde67828-9671-4f2f-a8f6-6ea28e36fb96")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -8389,6 +8611,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/e6f4b5ef-748f-4b9c-8917-7a16379f8e0d")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2" "5" "6" "7" "4" "8")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -8821,7 +9049,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8886,7 +9114,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/bbf38e0e-0159-4a48-a1df-563eaaaf0450")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9031,6 +9265,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/6ab0ce01-c575-4d32-ad04-892ec70171af")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -9173,7 +9413,7 @@
 				)
 			)
 		)
-		(property "Description" "100 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9239,6 +9479,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/27e26a78-b948-4aeb-81b7-5b4e43b212bd")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9364,7 +9610,7 @@
 				)
 			)
 		)
-		(property "Description" "150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9430,6 +9676,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/af7c8bde-ce72-4b36-a73a-2c39f2bea90f")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9555,7 +9807,7 @@
 				)
 			)
 		)
-		(property "Description" "100 pF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9647,6 +9899,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/9cba80d7-6d8b-4238-a6a6-5fd013801ea0")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9888,7 +10146,13 @@
 		)
 		(path "/768e2f9d-886b-4cf9-b2d9-90f5a9e1a7d3")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "6" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10241,7 +10505,13 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/ce56e975-a1ad-4c89-b515-77005d875c19")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10511,6 +10781,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/5e262a66-a4cd-4e2e-a146-810426162541")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -10808,6 +11084,14 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/b035436c-9f1b-4c9b-9a25-67f07db535eb")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "9" "2" "3" "13" "5" "6" "7" "4" "17" "1" "15" "16" "14" "8" "18"
+					"19" "10" "11" "12" "20" "21" "22" "23" "24" "25" "26" "27" "28" "29"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -11445,6 +11729,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "PGND_21")
+			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "e0859b78-e30d-4532-8362-6cfe6b4a5200")
 		)
@@ -11578,7 +11864,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "PGND_22")
+			(pinfunction "PGND_21")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "889d3fd2-6039-4bbb-977c-87b262d24932")
@@ -11654,7 +11940,7 @@
 				)
 			)
 		)
-		(property "Description" "1 MOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11720,6 +12006,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/88b3ef65-f2d4-420f-8c34-4fd1a779f110")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11845,7 +12137,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11911,6 +12203,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/0c4e7a4a-f279-4291-ae1a-9360ff8f712a")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12036,7 +12334,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12102,6 +12400,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/0fc722fc-f85d-4a9b-9c3d-c809fc7cab99")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12254,7 +12558,13 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e34fd555-50db-446c-8f5f-b49669730cbc")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -12338,7 +12648,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12403,7 +12713,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/154f1c7a-953e-4b3a-8c6a-cb648066cb0b")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12548,6 +12864,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/b341198d-165c-4bff-9c83-14d67a9f05f4")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -12710,7 +13032,13 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/321d0064-583e-430a-9309-ad836a5a86a6")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH" "A12" "B12" "A9" "B9" "A5" "B5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12949,7 +13277,7 @@
 				)
 			)
 		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13015,6 +13343,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/3fb59e60-60c4-465b-b379-e18c9093a958")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13140,7 +13474,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 330 OHM 5% 1/16W 0402"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -13206,6 +13540,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/cf23aa8a-19c5-4e19-a3b6-e84eca1b768a")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13358,7 +13698,13 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/35f39253-dc8a-4afb-994c-79d4db8233b8")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13461,6 +13807,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/c9c9dfce-bf58-4dfe-83d3-e81cf95bba22")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "7" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13662,16 +14014,6 @@
 			(uuid "224abfb5-6aa0-403d-aae8-7e11db912e2e")
 		)
 		(pad "4" smd roundrect
-			(at 0.04 0.65)
-			(size 0.87 0.235)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "5V0")
-			(pinfunction "4_4")
-			(pintype "unspecified")
-			(uuid "59b8e5de-4c1d-4543-809e-84edc11281cd")
-		)
-		(pad "4" smd roundrect
 			(at 0.925 0.65)
 			(size 0.35 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
@@ -13680,6 +14022,16 @@
 			(pinfunction "4_4")
 			(pintype "unspecified")
 			(uuid "02f1bb37-91fc-4369-a087-c0f29d88d635")
+		)
+		(pad "7" smd roundrect
+			(at 0.04 0.65)
+			(size 0.87 0.235)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "5V0")
+			(pinfunction "7_7")
+			(pintype "unspecified")
+			(uuid "59b8e5de-4c1d-4543-809e-84edc11281cd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Vishay_PowerPAK_SC70-6L_Single.step"
@@ -13733,7 +14085,7 @@
 				)
 			)
 		)
-		(property "Description" "5.23 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13799,6 +14151,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/16b69f35-f4b7-4011-8575-9bf4a62d89a7")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14027,6 +14385,14 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/54582056-5af7-4fc1-8257-48845fa36926")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "24" "1" "23" "7" "5" "6" "10" "8" "9" "3" "4" "12" "19" "20" "21"
+					"22" "15" "16" "11" "14" "13" "17" "18" "25"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14661,7 +15027,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14753,6 +15119,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/468e0df6-4eb6-4f64-bb43-035200935b7b")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14878,7 +15250,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14944,6 +15316,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/79a0d0a9-4f0f-4acd-a5d7-1495c710c1bc")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15087,7 +15465,13 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/efb36df7-31af-4a4d-a848-9e4247f5f876")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -15296,6 +15680,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/fd2563db-8c5c-448b-8987-82a1ffa2b08b")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15421,7 +15811,7 @@
 				)
 			)
 		)
-		(property "Description" "18.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15487,6 +15877,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/7f8fe47c-27ae-4237-ab47-60c2e4891004")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15612,7 +16008,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15704,6 +16100,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/0cacf46f-53e6-408f-99d1-9a4cdcf3e75d")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15848,6 +16250,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/7f49de8f-8d46-4827-ba72-4310c44e609b")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -16016,7 +16424,13 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/16287b2b-a4e7-475f-abf0-881ca99649f7")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16274,7 +16688,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16339,7 +16753,13 @@
 		(property ki_fp_filters "C_*")
 		(path "/57be5008-9f94-46b0-ad42-0b67976cb77b")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16483,7 +16903,13 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ed5f6a4e-54bb-487f-8c7a-6b7229dddcfc")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -16645,6 +17071,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/e95fe4a8-540e-4c24-81dc-de2bcd6c8425")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 1.2)
@@ -16813,7 +17245,13 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/803bdc4e-c3d4-4a0e-bf03-b3df9f25ee0f")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17064,7 +17502,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17129,7 +17567,13 @@
 		(property ki_fp_filters "R_*")
 		(path "/ca71a77f-57ad-41cf-bc78-42c56b26a9ff")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17281,7 +17725,13 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/ffbce38a-5c10-4cec-8509-b5117ff6ab6b")
 		(sheetname "/")
-		(sheetfile "bmo.kicad_sch")
+		(sheetfile "bmo_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "2" "4" "6" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17732,6 +18182,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/f9e0da3d-ebc9-4017-89b3-52ceb5c48814")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2" "5" "6" "7" "4" "8")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -18164,7 +18620,7 @@
 				)
 			)
 		)
-		(property "Description" "267 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18230,6 +18686,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/c816b3ad-c770-4216-ab2d-8625dcbb0b0d")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18355,7 +18817,7 @@
 				)
 			)
 		)
-		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18421,6 +18883,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/dd411bc2-2937-4c28-98e5-37d15ee12be8")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18546,7 +19014,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 2.2K OHM 5% 1/16W 0402"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18625,6 +19093,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/9762da05-e647-4047-99b1-317501edf65a")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18750,7 +19224,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 10V X5R 0402"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18842,6 +19316,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/375f0af6-daab-4a97-8eb8-96cfba2c4cbf")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18967,7 +19447,7 @@
 				)
 			)
 		)
-		(property "Description" "10000 pF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19059,6 +19539,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/237e08c0-ca2d-4555-8b6f-fe21f1727efc")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19184,7 +19670,7 @@
 				)
 			)
 		)
-		(property "Description" "220 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -19250,6 +19736,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/89d9082c-35e2-4cb7-a0ae-6bc29bb8d28f")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19462,6 +19954,12 @@
 		(path "/85b2d98d-13b1-41ec-93aa-daec3656f713/d478c592-6f89-4142-bed7-443ca511a751")
 		(sheetname "/battery/")
 		(sheetfile "battery.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "P1" "N2" "N1" "P2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19909,6 +20407,12 @@
 		(path "/eaf1b6dc-d642-4333-b5f7-d7468428f90f/fba64190-509a-45d9-9f72-8bc34cc326a6")
 		(sheetname "/Charger + Regulation/")
 		(sheetfile "charge_reg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

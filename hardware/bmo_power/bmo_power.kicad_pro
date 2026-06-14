@@ -506,7 +506,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bmo.kicad_pro",
+    "filename": "bmo_power.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -769,8 +769,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "bmo.kicad_sch",
-        "name": "bmo",
+        "filename": "bmo_power.kicad_sch",
+        "name": "bmo_power",
         "uuid": "a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed"
       }
     ],
@@ -780,7 +780,7 @@
   "sheets": [
     [
       "a1cdc15b-6047-4f5e-b984-2fa9f3f5d7ed",
-      "bmo"
+      "bmo_power"
     ],
     [
       "85b2d98d-13b1-41ec-93aa-daec3656f713",
