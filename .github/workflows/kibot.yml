@@ -1,0 +1,36 @@
+name: KiBot - bmo_power
+
+on:
+  push:
+    paths:
+      - 'bmo/hardware/bmo_power/**.kicad_pcb'
+      - 'bmo/hardware/bmo_power/**.kicad_sch'
+      - 'bmo/hardware/bmo_power/config.kibot.yaml'
+  pull_request:
+    paths:
+      - 'bmo/hardware/bmo_power/**.kicad_pcb'
+      - 'bmo/hardware/bmo_power/**.kicad_sch'
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/inti-cmnb/kicad10_auto_full:dev
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run KiBot
+        run: |
+          cd bmo/hardware/bmo_power
+          kibot -c config.kibot.yaml \
+                -e bmo_power.kicad_sch \
+                -b bmo_power.kicad_pcb \
+                -d output
+
+      - name: Upload outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bmo_power-outputs
+          path: bmo/hardware/bmo_power/output

@@ -1,0 +1,87 @@
+kibot:
+  version: 1
+
+preflight:
+  run_drc: true
+  run_erc: true
+  ignore_unconnected: false
+
+outputs:
+  - name: gerbers
+    comment: Gerber files for fabrication
+    type: gerber
+    dir: output/gerbers
+    options:
+      plot_sheet_reference: false
+      tent_vias: true
+    layers:
+      - F.Cu
+      - B.Cu
+      - F.Silkscreen
+      - B.Silkscreen
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+      - F.Paste
+
+  - name: drill
+    comment: Drill files
+    type: excellon
+    dir: output/gerbers
+    options:
+      map:
+        type: pdf
+
+  - name: bom
+    comment: Bill of Materials
+    type: bom
+    dir: output
+    options:
+      format: CSV
+      columns:
+        - field: References
+        - field: Value
+        - field: Footprint
+        - field: Quantity Per PCB
+
+  - name: schematic_pdf
+    comment: Schematic PDF
+    type: pdf_sch_print
+    dir: output
+
+  - name: ibom
+    comment: Interactive HTML BoM
+    type: ibom
+    dir: output
+
+  - name: diff_pcb
+    comment: PCB diff vs previous PCB commit
+    type: diff
+    dir: output/diff
+    layers:
+      - F.Cu
+      - B.Cu
+      - F.Silkscreen
+      - B.Silkscreen
+      - Edge.Cuts
+    options:
+      old: KIBOT_LAST-1
+      old_type: git
+      new: HEAD
+      new_type: git
+      only_different: true
+      pcb: true
+      schematic: false
+
+  - name: diff_sch
+    comment: Schematic diff vs previous schematic commit
+    type: diff
+    dir: output/diff
+    options:
+      old: KIBOT_LAST-1
+      old_type: git
+      new: HEAD
+      new_type: git
+      only_different: true
+      pcb: false
+      schematic: true
