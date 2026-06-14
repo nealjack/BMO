@@ -1,6 +1,7 @@
 name: KiBot - bmo_power
 
 on:
+  workflow_dispatch:   # adds a "Run workflow" button in the Actions tab
   push:
     paths:
       - 'bmo/hardware/bmo_power/**.kicad_pcb'
